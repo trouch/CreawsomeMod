@@ -4,10 +4,10 @@
     "version": 2,
     "inherits": "fdmprinter",
     "overrides": {
-        "machine_max_feedrate_x": { "value": 300 },
-        "machine_max_feedrate_y": { "value": 300 },
+        "machine_max_feedrate_x": { "value": 500 },
+        "machine_max_feedrate_y": { "value": 500 },
         "machine_max_feedrate_z": { "value": 5 },
-        "machine_max_feedrate_e": { "value": 25 },
+        "machine_max_feedrate_e": { "value": 50 },
 
         "machine_max_acceleration_x": { "value": 500 },
         "machine_max_acceleration_Y": { "value": 500 },
@@ -24,7 +24,7 @@
         "machine_max_jerk_z": { "value": 0.4 },
         "machine_max_jerk_e": { "value": 5 },
 
-        "jerk_print": { "value": 10 },
+        "jerk_print": { "value": 8 },
         "jerk_travel": { "value": "jerk_print" },
         "jerk_travel_layer_0": { "value": "jerk_travel" },
 
@@ -38,23 +38,28 @@
         "speed_wall_x": { "value": "speed_wall" },
         "speed_topbottom": { "value": "speed_print / 2" },
         "speed_roofing": { "value": "speed_topbottom" },
-        "speed_travel": { "value": "speed_print * 2" },
+        "speed_travel": { "value": "speed_print * 2.5" },
         "speed_layer_0": { "value": 20.0 },
         "speed_print_layer_0": { "value": "speed_layer_0" },
         "speed_travel_layer_0": { "value": "speed_layer_0 * 2" },
         "skirt_brim_speed": { "value": "speed_layer_0" },
 
-        "z_seam_type": { "value": "back"},
-        "z_seam_corner": { "value": "z_seam_corner_none"},
+        "line_width": { "value": "machine_nozzle_size * 1.25"},
+
+        "material_initial_print_temperature": { "value": "material_print_temperature"},
+        "material_final_print_temperature": { "value": "material_print_temperature"},
+        "material_flow": { "value": 95},
+
+        "z_seam_type": { "value": "'back'"},
+        "z_seam_corner": { "value": "'z_seam_corner_none'"},
         
-
         "infill_before_walls": { "value": false },
-        "infill_overlap": { "value": 20 },
+        "infill_overlap": { "value": 30 },
 
-        "retraction_combing": { "value": "off"},
+        "retraction_combing": { "value": "'off'"},
         "retraction_enable": { "value": true },
-        "retraction_count_max": { "value": "10" },
-        "retraction_extrusion_window": { "value": "1" },
+        "retraction_count_max": { "value": 10 },
+        "retraction_extrusion_window": { "value": 1 },
         "retraction_min_travel": { "value": 1.5 },
         "retraction_hop_enabled": { "value": true },
         "retraction_hop": { "value": 0.2 },
@@ -70,9 +75,9 @@
 
         "adaptive_layer_height_variation_step": { "value": 0.04 },
 
-        "support_angle": { "value": "45" },
+        "support_angle": { "value": 45 },
         "support_pattern": { "value": "'zigzag'" },
-        "support_use_towers": { "value": "False" },
+        "support_use_towers": { "value": false },
         "support_xy_distance": { "value": "wall_line_width_0 * 2.5" },
         "support_xy_distance_overhang": { "value": "wall_line_width_0" },
         "support_z_distance": { "value": "layer_height" },
@@ -92,8 +97,8 @@
                 [30, 34]
             ]
         },
-        "machine_start_gcode": { "default_value": ""},
-        "machine_end_gcode": { "default_value": "G91\nG1 F1800 E-3\nG1 F3000 Z10\nG90\nG28 X0 Y0 ; home x and y axis\nM106 S0 ; turn off cooling fan\nM104 S0 ; turn off extruder\nM140 S0 ; turn off bed\nM84 ; disable motors" },
+        "machine_start_gcode": { "default_value": "G28\nM420 S1 Z2\n\nG1 X10 Y10 F9000\nG1 Z0.2\n\nG92 E0\nG1 X80 E25 F1200\nG1 X150 F7200\nG92 E0\n\nG1 Z0.4"},
+        "machine_end_gcode": { "default_value": "G91\nG1 E-2 F2700\nG1 E-2 Z0.2 F2400\nG1 X5 Y5 Z10 F3000\nG90\n\nG1 X150 Y200\n\nM106 S0\nM104 S0\nM140 S0\n\nM84 X Y E\n\nM420 S0" },
         "machine_heated_bed": { "default_value": true },
 
         "material_diameter": { "default_value": 1.75 },
