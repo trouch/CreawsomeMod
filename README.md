@@ -24,7 +24,7 @@ Once you have installed the package mod, you can start Cura and create a new mac
 Feel free to check the start g-code and adjust it to your need. By default it has following sequence :
 - G28 home axis
 - M420 to recall ABL mesh and setup Fade Height to 2mm
-- Draw a purle line following the front edge.
+- Draw a purge line following the front edge
 - Start Printing
 
 ### Material Settings
