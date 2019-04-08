@@ -41,3 +41,5 @@ Feel free to check the start g-code and adjust it to your need. By default it ha
 It is really important that you use the material profiles capabilities to duplicate Generic ones and adjust temperatures as well as retractation settings there.
 
 ![materials](https://github.com/trouch/CreawsomeMod/raw/master/doc/screen-materials.png)
+
+![materials](https://github.com/trouch/CreawsomeMod/raw/master/doc/screen-materials-settings.png)
