@@ -1,4 +1,11 @@
-# CreawsomeMod Beta Installation
+# CreawsomeMod for Cura
+
+![main screen](https://github.com/trouch/CreawsomeMod/raw/master/doc/screen-main.png)
+
+![details screen](https://github.com/trouch/CreawsomeMod/raw/master/doc/screen-details.png)
+
+
+# Installation
 
 ## Warning
 This mod is currently in Beta and requires manual modification of your Cura installation. You may need to reinstall it in case the mod break something. Use integrated Utimaker cloud backup in Cura before making any change.
