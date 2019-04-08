@@ -1,5 +1,10 @@
 # CreawsomeMod for Cura
 
+![sample-cube](https://github.com/trouch/CreawsomeMod/raw/master/doc/sample-cube.jpg)
+
+![sample-cube](https://github.com/trouch/CreawsomeMod/raw/master/doc/sample-bust.jpg)
+
+
 ![main screen](https://github.com/trouch/CreawsomeMod/raw/master/doc/screen-main.png)
 
 ![details screen](https://github.com/trouch/CreawsomeMod/raw/master/doc/screen-details.png)
