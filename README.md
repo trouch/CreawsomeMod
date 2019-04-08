@@ -15,11 +15,14 @@ Go to your `Program Files\Ultimaker Cura` folder, locate the `ressources` folder
 ### MacOS
 Go to your `Applications` folder, select `Ultimaker Cura.app`, right-click or ctrl-click on it and select _Show Package Content_.
 Navigate through the folders to find the `ressources` one. Rename it and extract the dowloaded zip next to it.
+![mac os folders](https://github.com/trouch/CreawsomeMod/raw/master/doc/macos.png)
 
 ## Using CreawsomeMod
 
 ### New Machine
 Once you have installed the package mod, you can start Cura and create a new machine using the new `Creality` category so you can access the modified profiles. That's it.
+
+![add new machine](https://github.com/trouch/CreawsomeMod/raw/master/doc/screen-add-machine.png)
 
 Feel free to check the start g-code and adjust it to your need. By default it has following sequence :
 - G28 home axis
