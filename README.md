@@ -29,7 +29,7 @@ Navigate through the folders to find the `ressources` one. Rename it and extract
 ### New Machine
 Once you have installed the package mod, you can start Cura and create a new machine using the new `Creality` category so you can access the modified profiles. That's it.
 
-![add new machine](https://github.com/trouch/CreawsomeMod/raw/master/doc/screen-add-machine.png)
+![mac os folders](https://github.com/trouch/CreawsomeMod/raw/master/doc/macos.png)
 
 Feel free to check the start g-code and adjust it to your need. By default it has following sequence :
 - G28 home axis
@@ -40,3 +40,4 @@ Feel free to check the start g-code and adjust it to your need. By default it ha
 ### Material Settings
 It is really important that you use the material profiles capabilities to duplicate Generic ones and adjust temperatures as well as retractation settings there.
 
+![materials](https://github.com/trouch/CreawsomeMod/raw/master/doc/screen-materials.png)
