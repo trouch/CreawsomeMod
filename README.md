@@ -10,11 +10,11 @@ If you don't have Cura 4 installed yet, please proceed with it, and run it a fir
 First of all, download the [CreawsomeMod package](https://github.com/trouch/CreawsomeMod/releases/download/20190408-0.1.0/CreawsomeMod-0.1.zip) then follow instructions according to your operating system. 
 
 ### Windows
-Go to your `Program Files\Ultimaker Cura` folder, locate the `ressources` folder. Rename it and extract the dowloaded zip here.
+Go to your `Program Files\Ultimaker Cura` folder, locate the `ressources` folder. Rename it and extract the dowloaded zip next to it.
 
 ### MacOS
 Go to your `Applications` folder, select `Ultimaker Cura.app`, right-click or ctrl-click on it and select _Show Package Content_.
-Navigate through the folders to find the `ressources` one. Rename it and extract the dowloaded zip here.
+Navigate through the folders to find the `ressources` one. Rename it and extract the dowloaded zip next to it.
 
 ## Using CreawsomeMod
 
