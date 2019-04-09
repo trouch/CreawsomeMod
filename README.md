@@ -5,14 +5,14 @@
 
 # Overview
 ## Why this mod ?
-By default when adding ever a custom or a Creality machine, Cura enables several features to reduce printing duration, but it also decrease quality. This modification add new machine definition with deep customization to improve printing quality compared to the original bundled definitions.
+By default when adding a custom or a Creality machine, Cura enables several features to reduce printing duration, but it also decreases quality. This modification adds new machine definition with deep customization to improve printing quality compared to the original bundled definitions.
 
 I was also tired of customizing and manually overriding each setting depending on my needs and dealing with my custom profiles. I wanted something more streamlined that I can use accross computers and track the changes I do using my regular development workflow.
 
 Finally, I decided to share my work seeing the enthusiasm around my work and my prints so anyone can benefit from it.
 
 ## Will this mod improve my print quality ?
-It depends how have you been able to tune your profiles and printer so far ! As an example, you can see below the famous cube printed using the CR-10 S Pro _Super Quality_ quality. You should be able to decide by yourself if this mod worths to be tested. Keep in mind you will still need to adjust temperatures and retraction according to your material, and eventually the speed too.
+It depends how have you been able to tune your profiles and printer so far ! As an example, you can see below the famous cube printed using the CR-10 S Pro _Super Quality_ profile. You should be able to decide by yourself if this mod worths to be tested. Keep in mind you will still need to adjust temperatures and retraction according to your material, and eventually the speed too.
 
 ![sample-cube](https://github.com/trouch/CreawsomeMod/raw/master/doc/sample-cube.jpg)
 
@@ -47,7 +47,7 @@ It depends how have you been able to tune your profiles and printer so far ! As 
 * Added full machine preview
 * ... more to come !
 
-\* Long story short - not only only it works, it also improves your quality and will make your life easier with model dimensions - a 0.4mm nozzle will draw a 0.5mm line ! Don't forget to calibrate your flow multiplier for perfect fitting.
+\* Long story short - not only it works, it also improves your quality and will make your life easier with model dimensions - a 0.4mm nozzle will draw a 0.5mm line ! Don't forget to calibrate your flow multiplier for perfect fitting.
 
 ### Modification Preview
 
@@ -64,10 +64,10 @@ It depends how have you been able to tune your profiles and printer so far ! As 
 # Installation
 
 ## Warning
-This mod is currently in Beta and requires manual modification of your Cura installation. You may need to reinstall it in case the mod break something. Use integrated Utimaker cloud backup in Cura before making any change.
+This mod is currently in Beta and requires manual modification of your Cura installation. You may need to reinstall it in case the mod breaks something. Use integrated Utimaker cloud backup in Cura before making any change.
 
 ## Install Cura 4
-If you don't have Cura 4 installed yet, please proceed with it, and run it a first time. Running it at least once is required to go through your OS application signature check.
+If you haven't Cura 4 installed yet, please proceed with it, and run it a first time. Running it at least once is required to go through your OS application signature check.
 
 ## Install CreawsomeMod
 First of all, download the [CreawsomeMod package](https://github.com/trouch/CreawsomeMod/releases/download/20190408-0.1.0/CreawsomeMod-0.1.zip) then follow instructions according to your operating system. ***DO NOT DOWNLOAD THE ZIP FILE FROM THE CLONE BUTTON.***
