@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SRC_COPY="definitions images meshes setting_visibility"
+SRC_COPY="definitions images meshes setting_visibility materials"
 SRC_MACHINES="machines"
 SRC_QUALITIES="src/quality"
 SRC_VARIANTS="src/variants"
@@ -54,7 +54,7 @@ VARIANTS=`ls $SRC_VARIANTS`
 
 mkdir -p resources/variants
 for C in $SRC_COPY
-    do mkdir -p resources/$C; cp -r src/$C resources/$C
+    do mkdir -p resources/$C; cp -r src/$C resources
 done
 
 processMachines "$QUALITIES" "$VARIANTS" "$MACHINES"
@@ -62,5 +62,5 @@ processMachines "$QUALITIES" "$VARIANTS" "$MACHINES"
 if [ -d $1 ]
 then
     echo "Installing..."
-    cp -rv resources/ $1/Contents/Resources/resources/
+    cp -rv resources $1/Contents/Resources
 fi
