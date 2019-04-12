@@ -1,5 +1,6 @@
 #!/bin/sh
 
+SRC_COPY="definitions images meshes setting_visibility"
 SRC_MACHINES="machines"
 SRC_QUALITIES="src/quality"
 SRC_VARIANTS="src/variants"
@@ -50,5 +51,10 @@ processMachines() {
 MACHINES=`cat $SRC_MACHINES`
 QUALITIES=`ls $SRC_QUALITIES`
 VARIANTS=`ls $SRC_VARIANTS`
+
+mkdir -p resources/variants
+for C in $SRC_COPY
+    do mkdir -p resources/$C; cp -r src/$C resources/$C
+done
 
 processMachines "$QUALITIES" "$VARIANTS" "$MACHINES"
