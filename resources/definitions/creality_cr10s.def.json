@@ -1,0 +1,12 @@
+{
+    "id": "creality_cr10s",
+    "name": "Creality CR-10S",
+    "version": 2,
+    "inherits": "creality_cr10",
+    "overrides": {
+
+    },
+    "metadata": {
+        "visible": true
+    }
+}
