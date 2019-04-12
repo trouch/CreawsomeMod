@@ -58,3 +58,9 @@ for C in $SRC_COPY
 done
 
 processMachines "$QUALITIES" "$VARIANTS" "$MACHINES"
+
+if [ -d $1 ]
+then
+    echo "Installing..."
+    cp -rv resources/ $1/Contents/Resources/resources/
+fi
