@@ -15,7 +15,7 @@
             ]
         },
         "machine_start_gcode": { "default_value": "G28\nG1 X30 Y30 F9000\nG1 Z0.2\n\nG92 E0\nG1 X80 E25 F1200\nG1 X150 F7200\nG92 E0\n\nG1 Z0.4"},
-        "machine_end_gcode": { "default_value": "G91\nG1 E-2 F2700\nG1 E-2 Z0.2 F2400\nG1 X5 Y5 Z10 F3000\nG90\n\nG1 X150 Y200\n\nM106 S0\nM104 S0\nM140 S0\n\nM84 X Y E" },
+        "machine_end_gcode": { "default_value": "G91\nG1 E-2 F2700\nG1 E-2 Z0.2 F2400\nG1 X5 Y5 Z10 F3000\nG90\n\nG1 X110 Y200\n\nM106 S0\nM104 S0\nM140 S0\n\nM84 X Y E" },
 
         "gantry_height": { "default_value": 30 }
 
