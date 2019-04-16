@@ -4,6 +4,9 @@
     "version": 2,
     "inherits": "fdmprinter",
     "overrides": {
+        "machine_start_gcode": { "default_value": "G28 ;Home\nG1 Z0.4 ;Raise Z\n\nG1 X30 Y30 F9000 ;Go to purge start position\nG1 Z0.2 ;Drop to bed\nG92 E0 ;Reset E position\nG1 X80 E25 F1200 ;Draw purge line\nG1 X150 F7200 ;Wipe out\nG92 E0 ;Reset E position\nG1 Z0.4 ;Raise Z and start printing\n"},
+        "machine_end_gcode": { "default_value": "G91 ;Relative positionning\nG1 E-2 F2700 ;Retract a bit\nG1 E-2 Z0.2 F2400 ;Retract and raise Z\nG1 X5 Y5 F3000 ;Wipe out\nG1 Z10 ;Raise Z more\nG90 ;Absolute positionning\n\nG1 X0 Y{machine_depth} ;Present print\nM106 S0 ;Turn-off fan\nM104 S0 ;Turn-off hotend\nM140 S0 ;Turn-off bed\n\nM84 X Y E ;Disable all steppers but Z\n" },
+
         "machine_max_feedrate_x": { "value": 500 },
         "machine_max_feedrate_y": { "value": 500 },
         "machine_max_feedrate_z": { "value": 5 },
