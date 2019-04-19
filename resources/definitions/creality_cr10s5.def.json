@@ -1,0 +1,27 @@
+{
+    "id": "creality_cr10s5",
+    "name": "Creality CR-10S5",
+    "version": 2,
+    "inherits": "creality_base",
+    "overrides": {
+        "machine_width": { "default_value": 500 },
+        "machine_depth": { "default_value": 500 },
+        "machine_height": { "default_value": 500 },
+        "machine_head_polygon": { "default_value": [
+                [-30, 34],
+                [-30, -32],
+                [30, -32],
+                [30, 34]
+            ]
+        },
+
+        "gantry_height": { "default_value": 30 }
+
+    },
+    "metadata": {
+        "visible": true,
+        "machine_extruder_trains": {
+            "0": "creality_cr10_extruder_0"
+        }
+    }
+}

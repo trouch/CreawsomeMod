@@ -86,6 +86,26 @@ Generic PLA 1.75mm profile. The data in this file may not be correct for your sp
         </machine>
 
         <machine>
+            <machine_identifier manufacturer="Creality3D" product="creality_cr10" />
+            <setting key="print cooling">70</setting>
+            <setting key="standby temperature">180</setting>
+            <setting key="retraction speed">45</setting>
+            <setting key="retraction amount">5</setting>
+            <setting key="print temperature">200</setting>
+            <setting key="heated bed temperature">50</setting>
+        </machine>
+
+        <machine>
+            <machine_identifier manufacturer="Creality3D" product="creality_cr10s" />
+            <setting key="print cooling">70</setting>
+            <setting key="standby temperature">180</setting>
+            <setting key="retraction speed">45</setting>
+            <setting key="retraction amount">5</setting>
+            <setting key="print temperature">200</setting>
+            <setting key="heated bed temperature">50</setting>
+        </machine>
+
+        <machine>
             <machine_identifier manufacturer="Creality3D" product="creality_cr10spro" />
             <setting key="print cooling">70</setting>
             <setting key="standby temperature">180</setting>
@@ -95,5 +115,34 @@ Generic PLA 1.75mm profile. The data in this file may not be correct for your sp
             <setting key="heated bed temperature">50</setting>
         </machine>
 
+        <machine>
+            <machine_identifier manufacturer="Creality3D" product="creality_cr10s4" />
+            <setting key="print cooling">70</setting>
+            <setting key="standby temperature">180</setting>
+            <setting key="retraction speed">45</setting>
+            <setting key="retraction amount">5</setting>
+            <setting key="print temperature">200</setting>
+            <setting key="heated bed temperature">50</setting>
+        </machine>
+
+        <machine>
+            <machine_identifier manufacturer="Creality3D" product="creality_cr10s5" />
+            <setting key="print cooling">70</setting>
+            <setting key="standby temperature">180</setting>
+            <setting key="retraction speed">45</setting>
+            <setting key="retraction amount">5</setting>
+            <setting key="print temperature">200</setting>
+            <setting key="heated bed temperature">50</setting>
+        </machine>
+
+        <machine>
+            <machine_identifier manufacturer="Creality3D" product="creality_ender3" />
+            <setting key="print cooling">70</setting>
+            <setting key="standby temperature">180</setting>
+            <setting key="retraction speed">45</setting>
+            <setting key="retraction amount">5</setting>
+            <setting key="print temperature">200</setting>
+            <setting key="heated bed temperature">50</setting>
+        </machine>
     </settings>
 </fdmmaterial>
