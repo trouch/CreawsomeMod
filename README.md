@@ -70,7 +70,7 @@ This mod is currently in Beta and requires manual modification of your Cura inst
 If you haven't Cura 4 installed yet, please proceed with it, and run it a first time. Running it at least once is required to go through your OS application signature check.
 
 ## Install CreawsomeMod
-First of all, download the [CreawsomeMod package](https://github.com/trouch/CreawsomeMod/releases/download/20190408-0.1.0/CreawsomeMod-0.1.zip) then follow instructions according to your operating system. ***DO NOT DOWNLOAD THE ZIP FILE FROM THE CLONE BUTTON.***
+First of all, download the [CreawsomeMod package](https://github.com/trouch/CreawsomeMod/releases/download/20190420-0.2.0/CreawsomeMod-0.2.zip) then follow instructions according to your operating system. ***DO NOT DOWNLOAD THE ZIP FILE FROM THE CLONE BUTTON.***
 
 ### Windows
 Extract the zip file somewhere on your computer. Go to your `Program Files\Ultimaker Cura` folder, locate the `resources` folder and rename it. Copy and past the `resources` folder from the zip file to modify your Cura installation. To revert, simply delete the new folder and rename back the old one.
