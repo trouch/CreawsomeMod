@@ -1,6 +1,13 @@
 #!/bin/sh
 
-SRC_COPY="definitions images meshes setting_visibility materials"
+SRC_COPY="\
+definitions \
+images \
+meshes \
+setting_visibility \
+materials \
+"
+
 SRC_MACHINES="machines"
 SRC_QUALITIES="src/quality"
 SRC_VARIANTS="src/variants"
@@ -61,6 +68,6 @@ processMachines "$QUALITIES" "$VARIANTS" "$MACHINES"
 
 if [ -d $1 ]
 then
-    echo "Installing..."
-    cp -rv resources $1/Contents/Resources
+    echo "Installing to $1"
+    
 fi
