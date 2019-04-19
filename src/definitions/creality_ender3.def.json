@@ -4,8 +4,8 @@
     "version": 2,
     "inherits": "creality_base",
     "overrides": {
-        "machine_width": { "default_value": 220 },
-        "machine_depth": { "default_value": 220 },
+        "machine_width": { "default_value": 235 },
+        "machine_depth": { "default_value": 235 },
         "machine_height": { "default_value": 250 },
         "machine_head_polygon": { "default_value": [
                 [-30, 34],
@@ -21,7 +21,7 @@
     "metadata": {
         "visible": true,
         "platform": "creality_ender3_printerhd.stl",
-        "platform_offset": [ -150, 0, 150],
+        "platform_offset": [ -160, 0, 140],
         "machine_extruder_trains": {
             "0": "creality_ender3_extruder_0"
         }
