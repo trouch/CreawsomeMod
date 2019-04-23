@@ -77,7 +77,7 @@
         "retraction_hop_enabled": { "value": true },
         "retraction_hop": { "value": 0.2 },
 
-        "cool_fan_full_at_height": { "value": "layer_height_0 + 4 * layer_height" },
+        "cool_fan_full_at_height": { "value": "layer_height_0 + 2 * layer_height" },
         "cool_fan_enabled": { "value": true },
         "cool_min_layer_time": { "value": 10 },
 
