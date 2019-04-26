@@ -65,9 +65,3 @@ for C in $SRC_COPY
 done
 
 processMachines "$QUALITIES" "$VARIANTS" "$MACHINES"
-
-if [ -d $1 ]
-then
-    echo "Installing to $1"
-    
-fi
