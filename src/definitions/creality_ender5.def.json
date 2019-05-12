@@ -1,0 +1,29 @@
+{
+    "id": "creality_ender5",
+    "name": "Creality Ender-5",
+    "version": 2,
+    "inherits": "creality_base",
+    "overrides": {
+        "machine_width": { "default_value": 220 },
+        "machine_depth": { "default_value": 220 },
+        "machine_height": { "default_value": 300 },
+        "machine_head_polygon": { "default_value": [
+                [-30, 34],
+                [-30, -32],
+                [30, -32],
+                [30, 34]
+            ]
+        },
+
+        "gantry_height": { "default_value": 30 },
+        "speed_print": { "value": 80.0 }
+
+
+    },
+    "metadata": {
+        "visible": true,
+        "machine_extruder_trains": {
+            "0": "creality_ender3_extruder_0"
+        }
+    }
+}
