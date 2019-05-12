@@ -4,8 +4,8 @@
     "version": 2,
     "inherits": "creality_base",
     "overrides": {
-        "machine_width": { "default_value": 310 },
-        "machine_depth": { "default_value": 310 },
+        "machine_width": { "default_value": 300 },
+        "machine_depth": { "default_value": 300 },
         "machine_height": { "default_value": 400 },
         "machine_head_polygon": { "default_value": [
                 [-30, 34],
