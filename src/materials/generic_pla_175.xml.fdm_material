@@ -146,7 +146,7 @@ Generic PLA 1.75mm profile. The data in this file may not be correct for your sp
         </machine>
 
         <machine>
-            <machine_identifier manufacturer="Creality3D" product="creality_ender5" />
+            <machine_identifier manufacturer="Creality3D" product="creality_cr20" />
             <setting key="print cooling">100</setting>
             <setting key="standby temperature">180</setting>
             <setting key="retraction speed">45</setting>

@@ -127,5 +127,15 @@ Generic ABS 1.75mm profile. The data in this file may not be correct for your sp
             <setting key="print temperature">240</setting>
             <setting key="heated bed temperature">80</setting>
         </machine>
+
+        <machine>
+            <machine_identifier manufacturer="Creality3D" product="creality_cr20" />
+            <setting key="print cooling">0</setting>
+            <setting key="standby temperature">200</setting>
+            <setting key="retraction speed">45</setting>
+            <setting key="retraction amount">5</setting>
+            <setting key="print temperature">240</setting>
+            <setting key="heated bed temperature">80</setting>
+        </machine>
    </settings>
 </fdmmaterial>
