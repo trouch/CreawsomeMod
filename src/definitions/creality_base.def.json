@@ -10,7 +10,7 @@
         "machine_max_feedrate_x": { "value": 500 },
         "machine_max_feedrate_y": { "value": 500 },
         "machine_max_feedrate_z": { "value": 5 },
-        "machine_max_feedrate_e": { "value": 50 },
+        "machine_max_feedrate_e": { "value": 25 },
 
         "machine_max_acceleration_x": { "value": 500 },
         "machine_max_acceleration_Y": { "value": 500 },
@@ -69,6 +69,10 @@
         "skin_overlap": { "value": 10.0 },
         "infill_wipe_dist": { "value": 0.0 },
 
+        "retraction_speed": {
+            "maximum_value_warning": "machine_max_feedrate_e if retraction_enable else float('inf')",
+            "maximum_value": 200
+        },
         "retraction_combing": { "value": "'off'"},
         "retraction_enable": { "value": true },
         "retraction_count_max": { "value": 100 },
