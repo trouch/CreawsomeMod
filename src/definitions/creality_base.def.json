@@ -71,8 +71,8 @@
 
         "retraction_combing": { "value": "'off'"},
         "retraction_enable": { "value": true },
-        "retraction_count_max": { "value": 10 },
-        "retraction_extrusion_window": { "value": 1 },
+        "retraction_count_max": { "value": 100 },
+        "retraction_extrusion_window": { "value": 10 },
         "retraction_min_travel": { "value": 1.5 },
         "retraction_hop_enabled": { "value": true },
         "retraction_hop": { "value": 0.2 },
