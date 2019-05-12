@@ -1,12 +1,12 @@
 {
-    "id": "creality_cr20",
-    "name": "Creality CR-20",
+    "id": "creality_ender2",
+    "name": "Creality Ender-2",
     "version": 2,
     "inherits": "creality_base",
     "overrides": {
-        "machine_width": { "default_value": 220 },
-        "machine_depth": { "default_value": 220 },
-        "machine_height": { "default_value": 250 },
+        "machine_width": { "default_value": 150 },
+        "machine_depth": { "default_value": 150 },
+        "machine_height": { "default_value": 200 },
         "machine_head_polygon": { "default_value": [
                 [-30, 34],
                 [-30, -32],
@@ -19,6 +19,9 @@
 
     },
     "metadata": {
-        "visible": true
+        "visible": true,
+        "machine_extruder_trains": {
+            "0": "creality_ender3_extruder_0"
+        }
     }
 }
