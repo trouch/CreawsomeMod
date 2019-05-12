@@ -10,7 +10,7 @@
         "machine_max_feedrate_x": { "value": 500 },
         "machine_max_feedrate_y": { "value": 500 },
         "machine_max_feedrate_z": { "value": 5 },
-        "machine_max_feedrate_e": { "value": 25 },
+        "machine_max_feedrate_e": { "value": 50 },
 
         "machine_max_acceleration_x": { "value": 500 },
         "machine_max_acceleration_Y": { "value": 500 },
