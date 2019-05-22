@@ -57,8 +57,7 @@ It depends how have you been able to tune your profiles and printer so far ! As 
 
 ## What are the requirements ?
 * Cura 4.0
-* Creality CR-10/S/S Pro 3D Printer
-* ABL requires to probe the bed before starting the print
+* Creality CR-10/S/Pro or Ender-3/pro
 
 
 # Installation
