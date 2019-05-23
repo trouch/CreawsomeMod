@@ -16,8 +16,6 @@ It depends how have you been able to tune your profiles and printer so far ! As 
 
 ![sample-cube](https://github.com/trouch/CreawsomeMod/raw/master/doc/sample-cube.jpg)
 
-![sample-cube](https://github.com/trouch/CreawsomeMod/raw/master/doc/sample-bust.jpg)
-
 ## What are the actual modifications ?
 ### Machine definition
 * Deeply defined machine
