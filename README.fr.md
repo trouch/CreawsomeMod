@@ -1,9 +1,9 @@
 # Modification "Creagénial" pour Cura 
-* [Aperçu](#Apercu)
-* [Installation](#Installation)
-* [Utilisation](#Utilisation)
-* [Problèmes connus](#Problemes-connus)
-* [Réglages](#Reglages)
+* [Aperçu](#aperçu)
+* [Installation](#installation)
+* [Utilisation](#utilisation)
+* [Problèmes connus](#problèmes-connus)
+* [Réglages](#réglages)
 
 
 # Aperçu
@@ -27,7 +27,7 @@ _money_cat_fill.stl printed at 0.20mm layer height, 60mm/s_ [Source File](https:
 
 
 
-## Quelles sont les modificatios ?
+## Quelles sont les modifications ?
 ### Définitions de machine
 * Définitions de machine en profondeur
 * Correction des réglages cachés
