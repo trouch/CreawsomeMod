@@ -80,6 +80,10 @@ If you haven't Cura 4 installed yet, please proceed with it, and run it a first 
 ## Install CreawsomeMod
 First of all, download the [CreawsomeMod package](https://github.com/trouch/CreawsomeMod/releases/download/20190420-0.2.0/CreawsomeMod-0.2.zip) then follow instructions according to your operating system. ***DO NOT DOWNLOAD THE ZIP FILE FROM THE CLONE BUTTON.***
 
+A *particular* youtuber did a great intro video that shows how to install CreawsomeMod on Windows, use it, with a sample print at the end.
+
+[![intro video](https://img.youtube.com/vi/mOn-VNqg2ac/0.jpg)](https://www.youtube.com/watch?v=mOn-VNqg2ac)
+
 ### Windows
 Extract the zip file somewhere on your computer. Go to your `Program Files\Ultimaker Cura` folder, locate the `resources` folder and rename it for backup purpose. Copy and past the `resources` folder from the zip file to modify your Cura installation. To revert, simply delete the new folder and rename back the old one.
 
