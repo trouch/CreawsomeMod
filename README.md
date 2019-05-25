@@ -126,7 +126,7 @@ First of all, please check the [Issues](https://github.com/trouch/CreawsomeMod/i
 In case you can't modify your Cura install, please check your user privileges and Cura application access rights.
 
 ### New machine does not appear
-Please refer to the Cura wiki to find the location for your *user settings* and *application cache* and clean them up. ***You should already have backup your settings using integrated feature as part of the Install procedure !***
+Please refer to the [Cura wiki](https://github.com/Ultimaker/Cura/wiki/Cura-Preferences-and-Settings-Locations) to find the location for your *user settings* and *application cache* and clean them up. ***You should already have backup your settings using integrated feature as part of the Install procedure !***
 
 ### Where is my nozzle ?
 Please be patient. Each Nozzle/Material/Quality combination requires a specific mapping file with sub setting override when needed !
