@@ -8,9 +8,9 @@
 
 # Aperçu
 ## Pourquoi cette modification ?
-Par défaut, lorsqu'on ajoute une machine "Custom" ou Creality, Cura active certaines fonction pour réduire la durée d'impression, mais qui réduit aussi la qualité. Cette modification ajoute de nouvelles définitions de machine avec une personalisation en profondeur afin d'améliorer la qualité d'impression comparé à aux définitions initiales.
+Par défaut, lorsqu'on ajoute une machine "Custom" ou Creality, Cura active certaines fonctions pour réduire la durée d'impression, mais qui réduit aussi la qualité. Cette modification ajoute de nouvelles définitions de machine avec une personalisation en profondeur afin d'améliorer la qualité d'impression comparé aux définitions initiales.
 
-J'étais aussi fatigué de personaliser et écraser chaque réglage individuellement pour mes besoin, et de devoir gérer des profils utilisateurs. Je voulais un processus rationnalisé me permettant d'utiliser mes configurations sur plusieurs ordinateurs en utilisant mes habitudes de développeur.
+J'étais aussi fatigué de personaliser et écraser chaque réglage individuellement pour mes besoins, et de devoir gérer des profils utilisateurs. Je voulais un processus rationnalisé me permettant d'utiliser mes configurations sur plusieurs ordinateurs en utilisant mes habitudes de développeur.
 
 Finalement, j'ai décidé de partager mon travail en voyant l'entousiasme autour de celui-ci et de mes impressions, de façon à ce que chacun puisse en bénéficier.
 
