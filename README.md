@@ -89,7 +89,7 @@ Extract the zip file somewhere on your computer. Go to your `Program Files\Ultim
 
 ### MacOS
 Extract the zip file somewhere on your computer. Go to your `Applications` folder, select `Ultimaker Cura.app`, right-click or ctrl-click on it and select _Show Package Content_.
-Navigate through the folders to find the `ressources` one and rename it for backup purpose. Copy and past the `resources` folder from the zip file to modify your Cura installation. To revert, simply delete the new folder and rename back the old one.
+Navigate through the folders to find the `resources` one and rename it for backup purpose. Copy and past the `resources` folder from the zip file to modify your Cura installation. To revert, simply delete the new folder and rename back the old one.
 
 ![mac os folders](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/macos.png)
 
@@ -102,7 +102,7 @@ Not tested yet !
 If you just printed something with another profile, please power-cycle your printer once. _This is required to reset your firmware settings to defaults. Profiles with jerk/accel control enable add M204/M205 commands in the generated gcode which may gives unexpected result when using CreawsomeMod right after._
 
 ## New Machine
-Once you have installed the package mod, you can start Cura and create a new machine using the new `Creality` category so you can access the modified profiles. That's it.
+Once you have installed the package mod, you can start Cura and create a new machine using the new `CreawsomeMod` category so you can access the modified profiles. That's it !
 
 ![machines screen](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/screen-add-machine.png)
 
@@ -113,7 +113,7 @@ Feel free to check the start g-code and adjust it to your need. By default it ha
 - Start Printing
 
 ## Material Settings
-It is really important that you use the material profiles capabilities to duplicate Generic ones and adjust temperatures as well as retractation settings there.
+It is really important that you use the material profiles capabilities to duplicate Generic ones and adjust temperatures as well as retractation settings there for each of your spool !
 
 ![materials](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/screen-materials.png)
 
@@ -126,7 +126,7 @@ First of all, please check the [Issues](https://github.com/trouch/CreawsomeMod/i
 In case you can't modify your Cura install, please check your user privileges and Cura application access rights.
 
 ### New machine does not appear
-Please refer to the [Cura wiki](https://github.com/Ultimaker/Cura/wiki/Cura-Preferences-and-Settings-Locations) to find the location for your *user settings* and *application cache* and clean them up. ***You should already have backup your settings using integrated feature as part of the Install procedure !***
+Please refer to the [Cura wiki](https://github.com/Ultimaker/Cura/wiki/Cura-Preferences-and-Settings-Locations) to find the location for your *user settings* and *application cache* and clean them up. ***You should already have backup your settings using Cura backup feature before the modification !***
 
 ### Where is my nozzle ?
 Please be patient. Each Nozzle/Material/Quality combination requires a specific mapping file with sub setting override when needed !
@@ -162,7 +162,7 @@ Probably the most challenging issue with FDM. Per default, CreasomeMod sets the 
 If you encounter any nozzle clogging during retract, you probably have a small leak between the PTFE and nozzle ! Creality users, try this [Original Creality hot end ptfe fix](https://www.thingiverse.com/thing:3203831) by Luke Hatfield, aka "OneBadMarine". This ensure to keep presure between the PTFE tube and nozzle to avoid any leak.
 
 ### Line width
-CreawsomeMod sets the line width to 125% per default for convenience in calculation and overral better looking. However some models aren't compatible with such setting. In case you lose details, or have some wall replaced with thin infill, try to reduce the line width to 0.45 or 0.40.
+CreawsomeMod sets the line width to 125% per default for convenience in calculation and overral better looking. However some models aren't compatible with such setting. In case you lose details, or have some wall replaced with thin infill, try to reduce the line width to 0.45mm or 0.40mm.
 
 ## Support my work
 Considering it as a FREE upgrade to improve your print quality, you may want to support my work. I may have saved you hundred bucks in useless hardware upgrade ! Keep your money for filament spool and a dinner with your beloved people. Spread the word and mention CreawsomeMod when you are posting amazing prints using it.
