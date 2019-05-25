@@ -21,7 +21,7 @@ It depends how have you been able to tune your profiles and printer so far ! As 
 
 _xyzCalibration_cube.stl printed at 0.12mm layer height, 50mm/s_ [Source File](https://www.thingiverse.com/thing:1278865)
 
-[![benchmark ender](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/bench-ender-round1-lowres.jpg)](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/bench-ender-round1.jpg)
+![benchmark ender](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/bench-ender-round1-lowres.jpg)
 
 _money_cat_fill.stl printed at 0.20mm layer height, 60mm/s_ [Source File](https://www.thingiverse.com/thing:923108)
 
