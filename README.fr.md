@@ -30,7 +30,7 @@ _money_cat_fill.stl printed at 0.20mm layer height, 60mm/s_ [Source File](https:
 ## Quelles sont les modificatios ?
 ### Définitions de machine
 * Définitions de machine en profondeur
-* Correction des réglages cachés de saccade et accélération utilisées
+* Correction des réglages cachés
 * Désactivation du contrôle de saccade et d'accélération
 * Correction de la durée d'impression selon les firmware usine
 * Modification de la vitesse pour améliorer la stabilité
@@ -75,7 +75,7 @@ _money_cat_fill.stl printed at 0.20mm layer height, 60mm/s_ [Source File](https:
 ***Cette modification est actuellement en phase Beta et nécessite une modification manuelle de votre installation de Cura. Vous pouvez tout casser. Utilisez la fonction intégrée de à Cura pour sauvegarder vos réglages dans Ultimaker Cloud avant toute modification.***
 
 ## Installer Cura 4
-Si ce n'est pas encore fait, commencer par installer Cura et lancez le une première fois. Cela est nécessaire afin de passer les validations de signatures par votre système d'exploitation.
+Si ce n'est pas encore fait, commencez par installer Cura et lancez-le une première fois. Ceci est nécessaire afin de passer les validations de signature par votre système d'exploitation.
 
 ## Install CreawsomeMod
 Tout d'abord, téléchargez le [paquet CreawsomeMod](https://github.com/trouch/CreawsomeMod/releases/download/20190420-0.2.0/CreawsomeMod-0.2.zip) et suivez les instructions selon votre système d'exploitation. ***Ne téléchargez PAS le fichier ZIP depuis le boutton clone ci-dessus.***
@@ -85,86 +85,83 @@ Un youtubeur en *particulier* a fait une très bonne vidéo d'intro qui montre l
 [![intro video](https://img.youtube.com/vi/mOn-VNqg2ac/0.jpg)](https://www.youtube.com/watch?v=mOn-VNqg2ac)
 
 ### Windows
-Extract the zip file somewhere on your computer. Go to your `Program Files\Ultimaker Cura` folder, locate the `resources` folder and rename it for backup purpose. Copy and past the `resources` folder from the zip file to modify your Cura installation. To revert, simply delete the new folder and rename back the old one.
+Extraire le fichier zip quelque part sur votre ordinateur. Allez dans le dossier `Program Files\Ultimaker Cura`, repérez le dossier `resources` et renomez le pour sauvegarder l'installation existante. Copiez et collez le dossier `resources` du fichier zip afin de modifier votre installation Cura. Pour revenir en arrière, supprimez le nouveau dossier, et renomez à nouveau l'ancien.
 
 ### MacOS
-Extract the zip file somewhere on your computer. Go to your `Applications` folder, select `Ultimaker Cura.app`, right-click or ctrl-click on it and select _Show Package Content_.
-Navigate through the folders to find the `ressources` one and rename it for backup purpose. Copy and past the `resources` folder from the zip file to modify your Cura installation. To revert, simply delete the new folder and rename back the old one.
+Extraire le fichier zip quelque part sur votre ordinateur. Aller dans le dossier `Applications`, choisissez `Ultimaker Cura.app`, faites un clic droit ou cliquez dessus avec le bouton CTRL enfoncé, et choisissez _Afficher le contenu du paquet_.
+Parcourez l'arborescence de dossier pour trouver le dossier `resources` et renomez le pour sauvegarder l'installation existante. Copiez et coller le dossier `resources` du fichier zip pour modifier votre installation Cura. Pour revenir en arrière, supprimez le nouveau dossier, et renomez à nouveau l'ancien.
 
 ![mac os folders](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/macos.png)
 
 ### Linux
-Not tested yet !
+Pas encore testé !
 
-# Usage
+# Utilisation
 
-## Power-Cycle your printer
-If you just printed something with another profile, please power-cycle your printer once. _This is required to reset your firmware settings to defaults. Profiles with jerk/accel control enable add M204/M205 commands in the generated gcode which may gives unexpected result when using CreawsomeMod right after._
+## Éteignez et rallmuez votre imprimante
+Si vous avez imprimé quelque chose avec un autre profil juste avant, veuillez éteindre votre imprimante avant de la rallumer. _Ceci est nécessaire pour réinitialiser ses réglages. Les profils avec le contrôle d'accélération et de saccade activés injectent des commandes M204/M205 dans le g-code généré qui peuvent occasionner des résultats non attendu en utilisant CreawsomeMod juste après._
 
-## New Machine
-Once you have installed the package mod, you can start Cura and create a new machine using the new `Creality` category so you can access the modified profiles. That's it.
+## Nouvelle machine
+Une fois que vous avez installé la modification, vous pouvez démarrer Cura et créer une nouvelle machine en utilisant la nouvelle catégorie `CreawsomeMod` qui contient les nouveaux réglages. C'est tout !
 
 ![machines screen](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/screen-add-machine.png)
 
-Feel free to check the start g-code and adjust it to your need. By default it has following sequence :
+N'hésitez pas à vérifier le start g-code et modifiez le pour votre besoin. Par défaut, il a la séquence suivante :
 - G28 home axis
-- M420 to recall ABL mesh and setup Fade Height to 2mm
-- Draw a purge line following the front edge
-- Start Printing
+- M420 pour rappeler le mesh de compensation avec un lissage sur 2mm de hauteur
+- Ligne de purge sur l'avant de la plateforme
+- Lance l'impression
 
-## Material Settings
-It is really important that you use the material profiles capabilities to duplicate Generic ones and adjust temperatures as well as retractation settings there.
+## Réglages de matériaux
+Il est très important que vous utilisez les possibilitées offertes par les profiles de matériaux en duplicant les profils générique. Ajustez température et rétractation pour chacune de vos bobines !
 
 ![materials](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/screen-materials.png)
 
 ![materials settings](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/screen-materials-settings.png)
 
-## Known Issues
-First of all, please check the [Issues](https://github.com/trouch/CreawsomeMod/issues) tab for open and closed issue. There aren't that much for now, you should easily figure out your situation. Bellow is a recap of most experienced issues and answer/solutions.
+## Problèmes connus
+Tout d'abord, veuillez vérifier l'onglet [Issues](https://github.com/trouch/CreawsomeMod/issues) avec les bug ouvert et fermés. Il n'y en pas tant que ça, vous devriez facilement trouver votre cas. Ci-dessous vous trouverez un récapitulatif des problèmes les plus souvent rencontrés et les réponses/solutions associées.
 
-### macOS user privileges
-In case you can't modify your Cura install, please check your user privileges and Cura application access rights.
+### Droit utilisateur (macOS)
+Dans le cas où vous ne pourriez pas installer la modification, veuillez vérifier vos droits utilisateurs et l'accès aux fichiers de l'application Cura.
 
-### New machine does not appear
-Please refer to the [Cura wiki](https://github.com/Ultimaker/Cura/wiki/Cura-Preferences-and-Settings-Locations) to find the location for your *user settings* and *application cache* and clean them up. ***You should already have backup your settings using integrated feature as part of the Install procedure !***
+### Les nouvelles machines n'apparaissent pas
+Veuillez consulter le [wiki Cura](https://github.com/Ultimaker/Cura/wiki/Cura-Preferences-and-Settings-Locations) pour trouver le dossier contenant vos réglages utilisateurs ainsi que le cache pour les netoyer. **Vous devriez déjà avoir sauvegardé vos réglages en utilisant la fonction intégrée à Cura avant la modification !***
 
-### Where is my nozzle ?
-Please be patient. Each Nozzle/Material/Quality combination requires a specific mapping file with sub setting override when needed !
+### Où est ma buse ?
+Soyez patient. Chaque combinaison Buse/Matériaux/Qualité nécessite un fichier spécifique pour liér les définitions et ajuster certains réglages le cas échéant.
 
 ### Incompatible profiles
-Since CreawsomeMod create new machine definitions with advanced features such as per-material preset and nozzle choice, any previous profile is not compatible with CreawsomeMod. Even it if was ever possible, it could bring unexpected behavior.
+Comme CreawsomeMod crée de nouvelles définitions de machines avec des fonctionsa avancées telles que le choix de la buse ou les réglages par matériaux, tous les profils antériaux à CreawsomeMod sont incompatibles. Même si était possible, cela entrainerait des résultat innatendus. 
 
-### Cura updates
-CreawsomeMod only supports Cura 4. Additionnal releases per Cura version will be published over the time as needed.
+### Mises à jour de Cura
+CreawsomeMod supporte seulement Cura 4 et sera mis à jour pour chaque nouvelle version de Cura.
 
-### Retract speed limitation
-For most of Creality printer, the extruder feedrate is limited to 25mm/s ! That makes any retract speed above that value capped at 25mm/s, reason CreawsomeMod blocks it. Beta 3 will fix it and provide start g-code to fix your extruder feedrate in a safety range. 
+### LVitesse de retractation limitée
+Pour la plupart des imprimantes Creality, la vitesse max d'extrusion est limitée à 25mm/s dans le firmware ! Cela rend n'importe quelle vitesse de retractation au dessus de cette valeur inutilisée, raison pour laquelle CreawsomeMod bloque également. La beta 3 sera corrigée et fournira un start g-code pour ajuster la vitesse d'extrusion de façon sûre.
 
-### Ridiculous name/typo
-Yeah, it is a typo with the first beta ! I admit and totally assume it as a non english native. True story : someone noticed it when it was time to change it, but I've been lazy in redoing the (ridiculous) splashscreen and actually found it fun somehow. But I'm open to suggestion, feel free to submit your ideas in the [open issue](https://github.com/trouch/CreawsomeMod/issues/25).
+### Encore un nom en anglais (et avec une faute en plus)
+Oui, il y a une faute d'orthographe ! Je l'admet et l'assume complètement. Véridique : quelqu'un m'a prévenu quand il était encore temps de corriger. Mais je n'ai pas eu le courage de refaire le splashcreen ridicule et j'ai trouvé ça rigolo au final. Mais je suis ouvert aux suggestions, n'hésitez pas à soumettre vos idées sur le [bug ouvert](https://github.com/trouch/CreawsomeMod/issues/25).
 
-## Tuning Guide
+## Réglages
+Tout d'abord, quelque soit l'imprimante, le slicer, modification ou pas, je recommande fortement ce [Guide](https://www.3dhubs.com/talk/t/howto-calibrate-tune-and-fine-tune-your-printer-and-filament/5695) pour régler votre imprimante. Désolé, il est en anglais, mais je le traduirai à l'occasion ! Le plus important est de calibrer votre extrudeur (bowden débranché), votre flux, et de régler la température pour chacune de vos bobines !
 
-First of all, no matter of the printer, slicer, mod or not, I highly recommend this [Guide](https://www.3dhubs.com/talk/t/howto-calibrate-tune-and-fine-tune-your-printer-and-filament/5695) to tune your printer. Most importants are extruder and flow calibration as well as properly tuning temperature for each of your spools !
+### La couture Z
+Certainement le plus gros défi de l'impression 3D par dépôt de filament. Par défaut CreawsomeMod positionne la couture à l'arrière du modèle. Cla donne un résultat global très satisfaisant, mais peut amener une line non esthétique sur des modèles convexes. C'est le talon d'Achille du mod.
 
-### Z-Seam
-Probably the most challenging issue with FDM. Per default, CreasomeMod sets the Z-seam at the back of the model. This gives amazing overall looking and accuracy, but it may brings a non esthetic line on curved models. That's CreawsomeMod's Achilles' heel.
-
-1. ***Don't set the seam to be random*** as it will give overall worst result.
-2. Change Z-seam location for your model as shown in the picture above
-3. Fine tune your retract setting
-4. Enable and calibrate Linear Advance (incompatible with "silent" Creality boards using TMC2208)
-5. Use Cura coasting (incompatible with Linear Advance)
+1. ***Ne réglez pas la couture sur aléatoire*** ce qui donnerait un résultat global moins bon
+2. Changez la position de la couture comme indiqué dans la capture ci-dessous
+3. Réglez finement vos réglages de rétractation
+4. Activez et calibrez la Linear Advance dans Marlin (non compatible avec les cartes silencieuses utilisant un TMC2208)
+5. Activez la roue-libre dans Cura (incompatible avec la Linear Advance)
 
 ![z-seam location tuning](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/tuning-zseam1.png)
 
-### Don't get bored with the bore heatbreak anymore
-If you encounter any nozzle clogging during retract, you probably have a small leak between the PTFE and nozzle ! Creality users, try this [Original Creality hot end ptfe fix](https://www.thingiverse.com/thing:3203831) by Luke Hatfield, aka "OneBadMarine". This ensure to keep presure between the PTFE tube and nozzle to avoid any leak.
+### Attention aux micro-fuites
+Si vous avez la buse qui se bouche lors des retracts, il est probable que vous ayez une petite fuite entre le PTFE et la buse. Le filament fondu ne remonteras pas, mais ca réduit la qualité du flux. Vous pouvez essayer l'[Original Creality hot end ptfe fix](https://www.thingiverse.com/thing:3203831) par Luke Hatfield, aka "OneBadMarine". Ce mod permet de conserver une légère pression entre le PTFE et la buse, évitant ainsi toute micro-fuite.
 
-### Line width
-CreawsomeMod sets the line width to 125% per default for convenience in calculation and overral better looking. However some models aren't compatible with such setting. In case you lose details, or have some wall replaced with thin infill, try to reduce the line width to 0.45 or 0.40.
+### Largeur de ligne
+CreawsomeMod règle la largeur de ligne à 125% pour des questions de facilité de calcul et un meilleurs résultat global. Cependant, certains modèles sont incompatibles avec ce réglage. Si vous perdez des détails ou certains perimétres remplacées par des micro remplissages, essayez de réduire la largeur à 0.45mm ou 0.40mm.
 
-## Support my work
-Considering it as a FREE upgrade to improve your print quality, you may want to support my work. I may have saved you hundred bucks in useless hardware upgrade ! Keep your money for filament spool and a dinner with your beloved people. Spread the word and mention CreawsomeMod when you are posting amazing prints using it.
-
-I am eventually looking for upgrades, parts, filament or printer to test and integrate. Feel free to reach me out about that.
+## Soutenez-moi
+En considérant ce mod comme une upgrade GRATUITE qui améliorera votre qualité d'impression, vous souhaitez peut être soutenir mes efforts. Je vous ai peut être fait écononiser une centaine d'euros en upgrade inutiles ! Gardez votre argent pour des bobines ou un resto avec les personnes que vous aimez. Parlez de mon mod, et mentionnez-le si vous postez de superbes print réalisés avec !
