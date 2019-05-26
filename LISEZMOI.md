@@ -12,10 +12,10 @@ Par défaut, lorsqu'on ajoute une machine "Custom" ou Creality, Cura active cert
 
 J'étais aussi fatigué de personaliser et écraser chaque réglage individuellement pour mes besoins, et de devoir gérer des profils utilisateurs. Je voulais un processus rationnalisé me permettant d'utiliser mes configurations sur plusieurs ordinateurs en utilisant mes habitudes de développeur.
 
-Finalement, j'ai décidé de partager mon travail en voyant l'entousiasme autour de celui-ci et de mes impressions, de façon à ce que chacun puisse en bénéficier.
+Finalement, j'ai décidé de partager mon travail en voyant l'enthousiasme autour de celui-ci et de mes impressions, de façon à ce que chacun puisse en bénéficier.
 
 ## Cette amélioration va-t-elle améliorer ma qualité d'impression ?
-Cela dépends comment vous avez été capable de régler vos profiles et votre imprimante jusque là. Vous pouvez voir quelques exemples d'impression ci-dessous, à vous de voir ! Gardez en tête que vous devrez toujours ajuster votre températures et certains réglages en fonction de vos matériaux et modèles à imprimer !
+Cela dépend comment vous avez été capable de régler vos profils et votre imprimante jusque là. Vous pouvez voir quelques exemples d'impression ci-dessous, à vous de voir ! Gardez en tête que vous devrez toujours ajuster votre température et certains réglages en fonction de vos matériaux et modèles à imprimer !
 
 ![sample cube](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/sample-cube.jpg)
 
@@ -41,18 +41,18 @@ _money_cat_fill.stl printed at 0.20mm layer height, 60mm/s_ [Source File](https:
 
 ### Amélioration de qualité
 * Désactivation du Combing (Détourrage)
-* Activation du Z-Hop @ 0.2mm (Décallage en Z)
-* Correction des hauteurs de couche disponible
+* Activation du Z-Hop @ 0.2mm (Décalage en Z)
+* Correction des hauteurs de couche disponibles
 * Correction de la résolution X/Y
 * Modification de la largeur de ligne à 125% du diamètre de la buse \*
 * Alignement de la couture Z à l'arrière
 * Augmentation des murs
-* Optimization des supports
+* Optimisation des supports
 * Réglages de la température par matériaux
 
 ### Amélioration de l'interface
 * Nouvelle option de visibilité _Essentials_
-* Choix de la taille de buz
+* Choix de la taille de buse
 * Prévisualisation de la machine
 * ... plus à venir !
 
@@ -89,7 +89,7 @@ Extraire le fichier zip quelque part sur votre ordinateur. Allez dans le dossier
 
 ### MacOS
 Extraire le fichier zip quelque part sur votre ordinateur. Aller dans le dossier `Applications`, choisissez `Ultimaker Cura.app`, faites un clic droit ou cliquez dessus avec le bouton CTRL enfoncé, et choisissez _Afficher le contenu du paquet_.
-Parcourez l'arborescence de dossier pour trouver le dossier `resources` et renomez le pour sauvegarder l'installation existante. Copiez et coller le dossier `resources` du fichier zip pour modifier votre installation Cura. Pour revenir en arrière, supprimez le nouveau dossier, et renomez à nouveau l'ancien.
+Parcourez l'arborescence de dossier pour trouver le dossier `resources` et renommez le pour sauvegarder l'installation existante. Copiez et collez le dossier `resources` du fichier zip pour modifier votre installation Cura. Pour revenir en arrière, supprimez le nouveau dossier, et renommez à nouveau l'ancien.
 
 ![mac os folders](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/macos.png)
 
@@ -113,26 +113,26 @@ N'hésitez pas à vérifier le start g-code et modifiez le pour votre besoin. Pa
 - Lance l'impression
 
 ## Réglages de matériaux
-Il est très important que vous utilisez les possibilitées offertes par les profiles de matériaux en duplicant les profils générique. Ajustez température et rétractation pour chacune de vos bobines !
+Il est très important que vous utilisiez les possibilitées offertes par les profils de matériaux en dupplicant les profils génériques. Ajustez température et rétractation pour chacune de vos bobines !
 
 ![materials](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/screen-materials.png)
 
 ![materials settings](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/screen-materials-settings.png)
 
 ## Problèmes connus
-Tout d'abord, veuillez vérifier l'onglet [Issues](https://github.com/trouch/CreawsomeMod/issues) avec les bug ouvert et fermés. Il n'y en pas tant que ça, vous devriez facilement trouver votre cas. Ci-dessous vous trouverez un récapitulatif des problèmes les plus souvent rencontrés et les réponses/solutions associées.
+Tout d'abord, veuillez vérifier l'onglet [Issues](https://github.com/trouch/CreawsomeMod/issues) avec les bugs ouverts et fermés. Il n'y en pas tant que ça, vous devriez facilement trouver votre cas. Ci-dessous vous trouverez un récapitulatif des problèmes les plus souvent rencontrés et les réponses/solutions associées.
 
 ### Droit utilisateur (macOS)
-Dans le cas où vous ne pourriez pas installer la modification, veuillez vérifier vos droits utilisateurs et l'accès aux fichiers de l'application Cura.
+Dans le cas où vous ne pourriez pas installer la modification, veuillez vérifier vos droits utilisateur et l'accès aux fichiers de l'application Cura.
 
 ### Les nouvelles machines n'apparaissent pas
 Veuillez consulter le [wiki Cura](https://github.com/Ultimaker/Cura/wiki/Cura-Preferences-and-Settings-Locations) pour trouver le dossier contenant vos réglages utilisateurs ainsi que le cache pour les netoyer. **Vous devriez déjà avoir sauvegardé vos réglages en utilisant la fonction intégrée à Cura avant la modification !***
 
 ### Où est ma buse ?
-Soyez patient. Chaque combinaison Buse/Matériaux/Qualité nécessite un fichier spécifique pour liér les définitions et ajuster certains réglages le cas échéant.
+Soyez patient. Chaque combinaison Buse/Matériaux/Qualité nécessite un fichier spécifique pour lier les définitions et ajuster certains réglages le cas échéant.
 
-### Incompatible profiles
-Comme CreawsomeMod crée de nouvelles définitions de machines avec des fonctionsa avancées telles que le choix de la buse ou les réglages par matériaux, tous les profils antériaux à CreawsomeMod sont incompatibles. Même si était possible, cela entrainerait des résultat innatendus. 
+### Incompatibilité de profils
+Comme CreawsomeMod crée de nouvelles définitions de machines avec des fonctions avancées telles que le choix de la buse ou les réglages par matériaux, tous les profils antériaux à CreawsomeMod sont incompatibles. Même si cela était possible, cela entrainerait des résultats inattendus. 
 
 ### Mises à jour de Cura
 CreawsomeMod supporte seulement Cura 4 et sera mis à jour pour chaque nouvelle version de Cura.
@@ -147,7 +147,7 @@ Oui, il y a une faute d'orthographe ! Je l'admet et l'assume complètement. Vér
 Tout d'abord, quelque soit l'imprimante, le slicer, modification ou pas, je recommande fortement ce [Guide](https://www.3dhubs.com/talk/t/howto-calibrate-tune-and-fine-tune-your-printer-and-filament/5695) pour régler votre imprimante. Désolé, il est en anglais, mais je le traduirai à l'occasion ! Le plus important est de calibrer votre extrudeur (bowden débranché), votre flux, et de régler la température pour chacune de vos bobines !
 
 ### La couture Z
-Certainement le plus gros défi de l'impression 3D par dépôt de filament. Par défaut CreawsomeMod positionne la couture à l'arrière du modèle. Cla donne un résultat global très satisfaisant, mais peut amener une line non esthétique sur des modèles convexes. C'est le talon d'Achille du mod.
+Certainement le plus gros défi de l'impression 3D par dépôt de filament. Par défaut CreawsomeMod positionne la couture à l'arrière du modèle. Cela donne un résultat global très satisfaisant, mais peut amener une ligne non esthétique sur des modèles convexes. C'est le talon d'Achille du mod.
 
 1. ***Ne réglez pas la couture sur aléatoire*** ce qui donnerait un résultat global moins bon
 2. Changez la position de la couture comme indiqué dans la capture ci-dessous
@@ -158,10 +158,10 @@ Certainement le plus gros défi de l'impression 3D par dépôt de filament. Par 
 ![z-seam location tuning](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/tuning-zseam1.png)
 
 ### Attention aux micro-fuites
-Si vous avez la buse qui se bouche lors des retracts, il est probable que vous ayez une petite fuite entre le PTFE et la buse. Le filament fondu ne remonteras pas, mais ca réduit la qualité du flux. Vous pouvez essayer l'[Original Creality hot end ptfe fix](https://www.thingiverse.com/thing:3203831) par Luke Hatfield, aka "OneBadMarine". Ce mod permet de conserver une légère pression entre le PTFE et la buse, évitant ainsi toute micro-fuite.
+Si vous avez la buse qui se bouche lors des retracts, il est probable que vous ayez une petite fuite entre le PTFE et la buse. Le filament fondu ne remontera pas, mais ca réduit la qualité du flux. Vous pouvez essayer l'[Original Creality hot end ptfe fix](https://www.thingiverse.com/thing:3203831) par Luke Hatfield, aka "OneBadMarine". Ce mod permet de conserver une légère pression entre le PTFE et la buse, évitant ainsi toute micro-fuite.
 
 ### Largeur de ligne
-CreawsomeMod règle la largeur de ligne à 125% pour des questions de facilité de calcul et un meilleurs résultat global. Cependant, certains modèles sont incompatibles avec ce réglage. Si vous perdez des détails ou certains perimétres remplacées par des micro remplissages, essayez de réduire la largeur à 0.45mm ou 0.40mm.
+CreawsomeMod règle la largeur de ligne à 125% pour des questions de facilité de calcul et un meilleur résultat global. Cependant, certains modèles sont incompatibles avec ce réglage. Si vous perdez des détails ou certains perimétres remplacées par des micro remplissages, essayez de réduire la largeur à 0.45mm ou 0.40mm.
 
 ## Soutenez-moi
 En considérant ce mod comme une upgrade GRATUITE qui améliorera votre qualité d'impression, vous souhaitez peut être soutenir mes efforts. Je vous ai peut être fait écononiser une centaine d'euros en upgrade inutiles ! Gardez votre argent pour des bobines ou un resto avec les personnes que vous aimez. Parlez de mon mod, et mentionnez-le si vous postez de superbes print réalisés avec !
