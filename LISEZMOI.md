@@ -137,7 +137,7 @@ Comme CreawsomeMod crée de nouvelles définitions de machines avec des fonction
 ### Mises à jour de Cura
 CreawsomeMod supporte seulement Cura 4 et sera mis à jour pour chaque nouvelle version de Cura.
 
-### LVitesse de retractation limitée
+### Vitesse de retractation limitée
 Pour la plupart des imprimantes Creality, la vitesse max d'extrusion est limitée à 25mm/s dans le firmware ! Cela rend n'importe quelle vitesse de retractation au dessus de cette valeur inutilisée, raison pour laquelle CreawsomeMod bloque également. La beta 3 sera corrigée et fournira un start g-code pour ajuster la vitesse d'extrusion de façon sûre.
 
 ### Encore un nom en anglais (et avec une faute en plus)
