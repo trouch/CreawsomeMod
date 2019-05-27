@@ -59,7 +59,7 @@ Generic ABS 1.75mm profile. The data in this file may not be correct for your sp
         </machine>
 
         <machine>
-            <machine_identifier manufacturer="Creality3D" product="creality_cr10" />
+            <machine_identifier manufacturer="Creality3D" product="creawsome_cr10" />
             <setting key="print cooling">0</setting>
             <setting key="standby temperature">200</setting>
             <setting key="retraction speed">45</setting>
@@ -69,7 +69,7 @@ Generic ABS 1.75mm profile. The data in this file may not be correct for your sp
         </machine>
 
         <machine>
-            <machine_identifier manufacturer="Creality3D" product="creality_cr10s" />
+            <machine_identifier manufacturer="Creality3D" product="creawsome_cr10s" />
             <setting key="print cooling">0</setting>
             <setting key="standby temperature">200</setting>
             <setting key="retraction speed">45</setting>
@@ -79,7 +79,7 @@ Generic ABS 1.75mm profile. The data in this file may not be correct for your sp
         </machine>
 
         <machine>
-            <machine_identifier manufacturer="Creality3D" product="creality_cr10spro" />
+            <machine_identifier manufacturer="Creality3D" product="creawsome_cr10spro" />
             <setting key="print cooling">0</setting>
             <setting key="standby temperature">200</setting>
             <setting key="retraction speed">45</setting>
@@ -89,7 +89,7 @@ Generic ABS 1.75mm profile. The data in this file may not be correct for your sp
         </machine>
 
         <machine>
-            <machine_identifier manufacturer="Creality3D" product="creality_cr10s4" />
+            <machine_identifier manufacturer="Creality3D" product="creawsome_cr10s4" />
             <setting key="print cooling">0</setting>
             <setting key="standby temperature">200</setting>
             <setting key="retraction speed">45</setting>
@@ -99,7 +99,7 @@ Generic ABS 1.75mm profile. The data in this file may not be correct for your sp
         </machine>
 
         <machine>
-            <machine_identifier manufacturer="Creality3D" product="creality_cr10s5" />
+            <machine_identifier manufacturer="Creality3D" product="creawsome_cr10s5" />
             <setting key="print cooling">0</setting>
             <setting key="standby temperature">200</setting>
             <setting key="retraction speed">45</setting>
@@ -109,7 +109,7 @@ Generic ABS 1.75mm profile. The data in this file may not be correct for your sp
         </machine>
 
         <machine>
-            <machine_identifier manufacturer="Creality3D" product="creality_cr10mini" />
+            <machine_identifier manufacturer="Creality3D" product="creawsome_cr10mini" />
             <setting key="print cooling">0</setting>
             <setting key="standby temperature">200</setting>
             <setting key="retraction speed">45</setting>
@@ -119,7 +119,7 @@ Generic ABS 1.75mm profile. The data in this file may not be correct for your sp
         </machine>
 
         <machine>
-            <machine_identifier manufacturer="Creality3D" product="creality_cr20" />
+            <machine_identifier manufacturer="Creality3D" product="creawsome_cr20" />
             <setting key="print cooling">0</setting>
             <setting key="standby temperature">200</setting>
             <setting key="retraction speed">45</setting>
@@ -129,7 +129,7 @@ Generic ABS 1.75mm profile. The data in this file may not be correct for your sp
         </machine>
 
         <machine>
-            <machine_identifier manufacturer="Creality3D" product="creality_cr20pro" />
+            <machine_identifier manufacturer="Creality3D" product="creawsome_cr20pro" />
             <setting key="print cooling">0</setting>
             <setting key="standby temperature">200</setting>
             <setting key="retraction speed">45</setting>
@@ -139,7 +139,7 @@ Generic ABS 1.75mm profile. The data in this file may not be correct for your sp
         </machine>
 
         <machine>
-            <machine_identifier manufacturer="Creality3D" product="creality_ender2" />
+            <machine_identifier manufacturer="Creality3D" product="creawsome_ender2" />
             <setting key="print cooling">0</setting>
             <setting key="standby temperature">200</setting>
             <setting key="retraction speed">45</setting>
@@ -149,7 +149,7 @@ Generic ABS 1.75mm profile. The data in this file may not be correct for your sp
         </machine>
 
         <machine>
-            <machine_identifier manufacturer="Creality3D" product="creality_ender3" />
+            <machine_identifier manufacturer="Creality3D" product="creawsome_ender3" />
             <setting key="print cooling">0</setting>
             <setting key="standby temperature">200</setting>
             <setting key="retraction speed">45</setting>
@@ -159,7 +159,7 @@ Generic ABS 1.75mm profile. The data in this file may not be correct for your sp
         </machine>
 
         <machine>
-            <machine_identifier manufacturer="Creality3D" product="creality_ender4" />
+            <machine_identifier manufacturer="Creality3D" product="creawsome_ender4" />
             <setting key="print cooling">0</setting>
             <setting key="standby temperature">200</setting>
             <setting key="retraction speed">45</setting>
@@ -169,7 +169,7 @@ Generic ABS 1.75mm profile. The data in this file may not be correct for your sp
         </machine>
 
         <machine>
-            <machine_identifier manufacturer="Creality3D" product="creality_ender5" />
+            <machine_identifier manufacturer="Creality3D" product="creawsome_ender5" />
             <setting key="print cooling">0</setting>
             <setting key="standby temperature">200</setting>
             <setting key="retraction speed">45</setting>

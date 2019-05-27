@@ -1,9 +1,10 @@
 {
-    "id": "creality_ender2",
+    "id": "creawsome_ender2",
     "name": "Creality Ender-2",
     "version": 2,
-    "inherits": "creality_base",
+    "inherits": "creawsome_base",
     "overrides": {
+        "machine_name": { "default_value": "Creawsome Ender-2" },
         "machine_width": { "default_value": 150 },
         "machine_depth": { "default_value": 150 },
         "machine_height": { "default_value": 200 },
@@ -19,9 +20,6 @@
 
     },
     "metadata": {
-        "visible": true,
-        "machine_extruder_trains": {
-            "0": "creality_ender3_extruder_0"
-        }
+
     }
 }

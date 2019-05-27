@@ -1,9 +1,10 @@
 {
-    "id": "creality_cr10s5",
+    "id": "creawsome_cr10s5",
     "name": "Creality CR-10S5",
     "version": 2,
-    "inherits": "creality_base",
+    "inherits": "creawsome_base",
     "overrides": {
+        "machine_name": { "default_value": "Creawsome CR-10S5" },
         "machine_width": { "default_value": 500 },
         "machine_depth": { "default_value": 500 },
         "machine_height": { "default_value": 500 },
@@ -19,9 +20,6 @@
 
     },
     "metadata": {
-        "visible": true,
-        "machine_extruder_trains": {
-            "0": "creality_cr10_extruder_0"
-        }
+
     }
 }

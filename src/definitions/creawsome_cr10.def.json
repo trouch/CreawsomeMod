@@ -1,9 +1,10 @@
 {
-    "id": "creality_cr10",
+    "id": "creawsome_cr10",
     "name": "Creality CR-10",
     "version": 2,
-    "inherits": "creality_base",
+    "inherits": "creawsome_base",
     "overrides": {
+        "machine_name": { "default_value": "Creawsome CR-10" },
         "machine_width": { "default_value": 300 },
         "machine_depth": { "default_value": 300 },
         "machine_height": { "default_value": 400 },
@@ -19,11 +20,7 @@
 
     },
     "metadata": {
-        "visible": true,
-        "platform": "creality_cr10s_printerhd.stl",
-        "platform_offset": [ -150, 0, 155],
-        "machine_extruder_trains": {
-            "0": "creality_cr10_extruder_0"
-        }
+        "platform": "creawsome_cr10s_printerhd.stl",
+        "platform_offset": [ -150, 0, 155]
     }
 }

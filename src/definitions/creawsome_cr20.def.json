@@ -1,9 +1,10 @@
 {
-    "id": "creality_ender3",
-    "name": "Creality Ender-3",
+    "id": "creawsome_cr20",
+    "name": "Creality CR-20",
     "version": 2,
-    "inherits": "creality_base",
+    "inherits": "creawsome_base",
     "overrides": {
+        "machine_name": { "default_value": "Creawsome CR-20" },
         "machine_width": { "default_value": 220 },
         "machine_depth": { "default_value": 220 },
         "machine_height": { "default_value": 250 },
@@ -19,11 +20,6 @@
 
     },
     "metadata": {
-        "visible": true,
-        "platform": "creality_ender3_printerhd.stl",
-        "platform_offset": [ -160, 0, 140],
-        "machine_extruder_trains": {
-            "0": "creality_ender3_extruder_0"
-        }
+
     }
 }

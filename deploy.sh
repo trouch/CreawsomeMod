@@ -2,6 +2,7 @@
 
 SRC_COPY="\
 definitions \
+extruders \
 images \
 meshes \
 setting_visibility \
