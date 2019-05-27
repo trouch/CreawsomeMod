@@ -129,7 +129,7 @@
     "metadata": {
         "visible": true,
         "author": "trouch.com",
-        "manufacturer": "Creality3D",
+        "manufacturer": "CreawsomeMod",
         "category": "CreawsomeMod",
         "file_formats": "text/x-gcode",
         "first_start_actions": ["MachineSettingsAction"],
