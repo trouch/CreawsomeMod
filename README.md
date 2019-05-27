@@ -83,7 +83,7 @@ If you haven't Cura 4 installed yet, please proceed with it, and run it a first 
 Please refer to the [Cura wiki](https://github.com/Ultimaker/Cura/wiki/Cura-Preferences-and-Settings-Locations) to find the location for your *user settings* and *application cache* and clean them up. ***You should already have backup your settings using Cura backup feature before the modification !***
 
 ## Install CreawsomeMod
-First of all, download the [CreawsomeMod package](https://github.com/trouch/CreawsomeMod/releases/download/20190420-0.2.0/CreawsomeMod-0.2.zip) then follow instructions according to your operating system. ***DO NOT DOWNLOAD THE ZIP FILE FROM THE CLONE BUTTON.***
+First of all, download the [CreawsomeMod package](https://github.com/trouch/CreawsomeMod/releases/download/20190527-0.3.0/CreawsomeMod-Beta3.zip) then follow instructions according to your operating system. ***DO NOT DOWNLOAD THE ZIP FILE FROM THE CLONE BUTTON.***
 
 A youtuber in particular did a great intro video that shows how to install CreawsomeMod on Windows, use it, with a sample print at the end.
 
