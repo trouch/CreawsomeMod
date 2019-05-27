@@ -66,18 +66,22 @@ _money_cat_fill.stl printed at 0.20mm layer height, 60mm/s_ [Source File](https:
 
 ## Quels sont les pré-requis
 * Cura 4.0
-* Creality CR-10/S/Pro ou Ender-3/Pro
-
 
 # Installation
 
 ## Attention
-***Cette modification est actuellement en phase Beta et nécessite une modification manuelle de votre installation de Cura. Vous pouvez tout casser. Utilisez la fonction intégrée de à Cura pour sauvegarder vos réglages dans Ultimaker Cloud avant toute modification.***
+***Cette modification est actuellement en phase Beta et nécessite une modification manuelle de votre installation de Cura. Vous pouvez tout casser.***
+
+## Sauvegarde des profils existants
+Utilisez la fonction intégrée de à Cura pour sauvegarder vos réglages dans Ultimaker Cloud avant toute modification.
 
 ## Installer Cura 4
 Si ce n'est pas encore fait, commencez par installer Cura et lancez-le une première fois. Ceci est nécessaire afin de passer les validations de signature par votre système d'exploitation.
 
-## Install CreawsomeMod
+## Réinitilisation de Cura
+Veuillez consulter le [wiki Cura](https://github.com/Ultimaker/Cura/wiki/Cura-Preferences-and-Settings-Locations) pour trouver le dossier contenant vos réglages utilisateurs ainsi que le cache pour les netoyer. **Vous devriez déjà avoir sauvegardé vos réglages en utilisant la fonction intégrée à Cura avant la modification !***
+
+## Installer CreawsomeMod
 Tout d'abord, téléchargez le [paquet CreawsomeMod](https://github.com/trouch/CreawsomeMod/releases/download/20190420-0.2.0/CreawsomeMod-0.2.zip) et suivez les instructions selon votre système d'exploitation. ***Ne téléchargez PAS le fichier ZIP depuis le boutton clone ci-dessus.***
 
 Un youtubeur en *particulier* a fait une très bonne vidéo d'intro qui montre l'installation sur Windows, son utilisation, et un exemple d'impression à la fin.
@@ -137,11 +141,8 @@ Comme CreawsomeMod crée de nouvelles définitions de machines avec des fonction
 ### Mises à jour de Cura
 CreawsomeMod supporte seulement Cura 4 et sera mis à jour pour chaque nouvelle version de Cura.
 
-### Vitesse de retractation limitée
-Pour la plupart des imprimantes Creality, la vitesse max d'extrusion est limitée à 25mm/s dans le firmware ! Cela rend n'importe quelle vitesse de retractation au dessus de cette valeur inutilisée, raison pour laquelle CreawsomeMod bloque également. La beta 3 sera corrigée et fournira un start g-code pour ajuster la vitesse d'extrusion de façon sûre.
-
 ### Encore un nom en anglais (et avec une faute en plus)
-Oui, il y a une faute d'orthographe ! Je l'admet et l'assume complètement. Véridique : quelqu'un m'a prévenu quand il était encore temps de corriger. Mais je n'ai pas eu le courage de refaire le splashcreen ridicule et j'ai trouvé ça rigolo au final. Mais je suis ouvert aux suggestions, n'hésitez pas à soumettre vos idées sur le [bug ouvert](https://github.com/trouch/CreawsomeMod/issues/25).
+Oui, il y a une faute d'orthographe ! Je l'admet et l'assume complètement. Véridique : quelqu'un m'a prévenu quand il était encore temps de corriger. Mais je n'ai pas eu le courage de refaire le splashcreen ridicule et j'ai trouvé ça rigolo au final.
 
 ## Réglages
 Tout d'abord, quelque soit l'imprimante, le slicer, modification ou pas, je recommande fortement ce [Guide](https://www.3dhubs.com/talk/t/howto-calibrate-tune-and-fine-tune-your-printer-and-filament/5695) pour régler votre imprimante. Désolé, il est en anglais, mais je le traduirai à l'occasion ! Le plus important est de calibrer votre extrudeur (bowden débranché), votre flux, et de régler la température pour chacune de vos bobines !
@@ -162,6 +163,9 @@ Si vous avez la buse qui se bouche lors des retracts, il est probable que vous a
 
 ### Largeur de ligne
 CreawsomeMod règle la largeur de ligne à 125% pour des questions de facilité de calcul et un meilleur résultat global. Cependant, certains modèles sont incompatibles avec ce réglage. Si vous perdez des détails ou certains perimétres remplacées par des micro remplissages, essayez de réduire la largeur à 0.45mm ou 0.40mm.
+
+### Rétractation
+Pour la plupart des imprimantes Creality, la vitesse max d'extrusion est limitée à 25mm/s dans le firmware ! CreawsomeMod inclus un g-code de début afin de régler l'extrudeuse à 50mm/s en utilisant une commande _M203_ et alertera l'utilisateur en cas de réglage excessif. Assurez-vous de changer le g-code de début si vous avez besoin d'une vitesse de rétractation supérieur à 50mm/s.
 
 ## Soutenez-moi
 En considérant ce mod comme une upgrade GRATUITE qui améliorera votre qualité d'impression, vous souhaitez peut être soutenir mes efforts. Je vous ai peut être fait écononiser une centaine d'euros en upgrade inutiles ! Gardez votre argent pour des bobines ou un resto avec les personnes que vous aimez. Parlez de mon mod, et mentionnez-le si vous postez de superbes print réalisés avec !

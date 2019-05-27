@@ -66,21 +66,26 @@ _money_cat_fill.stl printed at 0.20mm layer height, 60mm/s_ [Source File](https:
 
 ## What are the requirements ?
 * Cura 4.0
-* Creality CR-10/S/Pro or Ender-3/Pro
 
 
 # Installation
 
 ## Warning
-***This mod is currently in Beta and requires manual modification of your Cura installation. You may need to reinstall it in case the mod breaks something. Use integrated Utimaker cloud backup in Cura before making any change.***
+***This mod is currently in Beta and requires manual modification of your Cura installation. You may need to reinstall it in case the mod breaks something.***
+
+## Backup user data
+Use integrated Utimaker cloud backup in Cura before making any change.
 
 ## Install Cura 4
 If you haven't Cura 4 installed yet, please proceed with it, and run it a first time. Running it at least once is required to go through your OS application signature check.
 
+## Reset Cura
+Please refer to the [Cura wiki](https://github.com/Ultimaker/Cura/wiki/Cura-Preferences-and-Settings-Locations) to find the location for your *user settings* and *application cache* and clean them up. ***You should already have backup your settings using Cura backup feature before the modification !***
+
 ## Install CreawsomeMod
 First of all, download the [CreawsomeMod package](https://github.com/trouch/CreawsomeMod/releases/download/20190420-0.2.0/CreawsomeMod-0.2.zip) then follow instructions according to your operating system. ***DO NOT DOWNLOAD THE ZIP FILE FROM THE CLONE BUTTON.***
 
-A *particular* youtuber did a great intro video that shows how to install CreawsomeMod on Windows, use it, with a sample print at the end.
+A youtuber in particular did a great intro video that shows how to install CreawsomeMod on Windows, use it, with a sample print at the end.
 
 [![intro video](https://img.youtube.com/vi/mOn-VNqg2ac/0.jpg)](https://www.youtube.com/watch?v=mOn-VNqg2ac)
 
@@ -125,9 +130,6 @@ First of all, please check the [Issues](https://github.com/trouch/CreawsomeMod/i
 ### macOS user privileges
 In case you can't modify your Cura install, please check your user privileges and Cura application access rights.
 
-### New machine does not appear
-Please refer to the [Cura wiki](https://github.com/Ultimaker/Cura/wiki/Cura-Preferences-and-Settings-Locations) to find the location for your *user settings* and *application cache* and clean them up. ***You should already have backup your settings using Cura backup feature before the modification !***
-
 ### Where is my nozzle ?
 Please be patient. Each Nozzle/Material/Quality combination requires a specific mapping file with sub setting override when needed !
 
@@ -137,11 +139,9 @@ Since CreawsomeMod create new machine definitions with advanced features such as
 ### Cura updates
 CreawsomeMod only supports Cura 4. Additionnal releases per Cura version will be published over the time as needed.
 
-### Retract speed limitation
-For most of Creality printer, the extruder feedrate is limited to 25mm/s ! That makes any retract speed above that value capped at 25mm/s, reason CreawsomeMod blocks it. Beta 3 will fix it and provide start g-code to fix your extruder feedrate in a safety range. 
 
 ### Ridiculous name/typo
-Yeah, it is a typo with the first beta ! I admit and totally assume it as a non english native. True story : someone noticed it when it was time to change it, but I've been lazy in redoing the (ridiculous) splashscreen and actually found it fun somehow. But I'm open to suggestion, feel free to submit your ideas in the [open issue](https://github.com/trouch/CreawsomeMod/issues/25).
+Yeah, it is a typo with the first beta ! I admit and totally assume it as a non english native. True story : someone noticed it when it was time to change it, but I've been lazy in redoing the (ridiculous) splashscreen and actually found it fun somehow.
 
 ## Tuning Guide
 
@@ -163,6 +163,9 @@ If you encounter any nozzle clogging during retract, you probably have a small l
 
 ### Line width
 CreawsomeMod sets the line width to 125% per default for convenience in calculation and overral better looking. However some models aren't compatible with such setting. In case you lose details, or have some wall replaced with thin infill, try to reduce the line width to 0.45mm or 0.40mm.
+
+### Retraction
+For most of Creality printer, the extruder feedrate is limited to 25mm/s ! CreawsomeMod includes a start g-code to set it to 50mm/s using an _M203_ command and warns users when setting retraction above that value. Make sure to adjust start g-code if you need a retract speed above 50mm/s.
 
 ## Support my work
 Considering it as a FREE upgrade to improve your print quality, you may want to support my work. I may have saved you hundred bucks in useless hardware upgrade ! Keep your money for filament spool and a dinner with your beloved people. Spread the word and mention CreawsomeMod when you are posting amazing prints using it.
