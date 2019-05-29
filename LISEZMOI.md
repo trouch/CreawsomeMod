@@ -5,6 +5,7 @@
 * [Problèmes connus](#problèmes-connus)
 * [Réglages](#réglages)
 
+***La mise à jour Cura 4.1 peut corrompre votre installation si vous avez le mod installé. Je recommende fortement de reinitiliser vos réglages et de remettre l'ancien dossier `resources`. Ensuite vous pourrez mettre à jour Cura, et réinstaller le mod avec le nouveau paquet.***
 
 # Aperçu
 ## Pourquoi cette modification ?
@@ -65,12 +66,15 @@ _money_cat_fill.stl printed at 0.20mm layer height, 60mm/s_ [Source File](https:
 ![details screen](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/screen-details.png)
 
 ## Quels sont les pré-requis
-* Cura 4.0
+* Cura 4.0-4.1
 
 # Installation
 
 ## Attention
 ***Cette modification est actuellement en phase Beta et nécessite une modification manuelle de votre installation de Cura. Vous pouvez tout casser.***
+
+## ALERTE CURA 4.1
+***La mise à jour Cura 4.1 se corromp elle même si vous avez le mod installé. Je recommende fortement de reinitiliser vos réglages et de remettre l'ancien dossier `resources`. Ensuite vous pourrez mettre à jour Cura, et réinstaller le mod avec le nouveau paquet.***
 
 ## Sauvegarde des profils existants
 Utilisez la fonction intégrée de à Cura pour sauvegarder vos réglages dans Ultimaker Cloud avant toute modification.
@@ -82,7 +86,11 @@ Si ce n'est pas encore fait, commencez par installer Cura et lancez-le une premi
 Veuillez consulter le [wiki Cura](https://github.com/Ultimaker/Cura/wiki/Cura-Preferences-and-Settings-Locations) pour trouver le dossier contenant vos réglages utilisateurs ainsi que le cache pour les netoyer. **Vous devriez déjà avoir sauvegardé vos réglages en utilisant la fonction intégrée à Cura avant la modification !***
 
 ## Installer CreawsomeMod
-Tout d'abord, téléchargez le [paquet CreawsomeMod](https://github.com/trouch/CreawsomeMod/releases/download/20190527-0.3.0/CreawsomeMod-Beta3.zip) et suivez les instructions selon votre système d'exploitation. ***Ne téléchargez PAS le fichier ZIP depuis le boutton clone ci-dessus.***
+Tout d'abord, téléchargez le paquet correspondant à votre version de Cura et suivez les instructions selon votre système d'exploitation. ***Ne téléchargez PAS le fichier ZIP depuis le boutton clone ci-dessus.***
+
+* [CreawsomeMod pour Cura 4.0](https://github.com/trouch/CreawsomeMod/releases/download/20190527-0.3.0/CreawsomeMod-Beta3.zip) 
+* [CreawsomeMod pour Cura 4.1](https://github.com/trouch/CreawsomeMod/releases/download/20190527-0.3.1/CreawsomeMod-Beta3-Cura4.1.zip)
+
 
 Un youtubeur en *particulier* a fait une très bonne vidéo d'intro qui montre l'installation sur Windows, son utilisation, et un exemple d'impression à la fin.
 

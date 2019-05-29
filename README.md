@@ -5,6 +5,7 @@
 * [Known Issues](#Known-Issues)
 * [Tuning Guide](#Tuning-Guide)
 
+***Cura Update to 4.1 will break itself if you have the mod installed. I highly recommend to reset your Cura settings and revert back to your old `resources`. Then you can proceed with Cura update and mod reinstall using the new package.***
 
 # Overview
 ## Why this mod ?
@@ -65,13 +66,16 @@ _money_cat_fill.stl printed at 0.20mm layer height, 60mm/s_ [Source File](https:
 ![details screen](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/screen-details.png)
 
 ## What are the requirements ?
-* Cura 4.0
+* Cura 4.0-4.1
 
 
 # Installation
 
 ## Warning
 ***This mod is currently in Beta and requires manual modification of your Cura installation. You may need to reinstall it in case the mod breaks something.***
+
+## Cura 4.1 Update ALERT
+***Cura Update to 4.1 will break itself if you have the mod installed. I highly recommend to reset your Cura settings and revert back to your old `resources`. Then you can proceed with Cura update and mod reinstall using the new package.***
 
 ## Backup user data
 Use integrated Utimaker cloud backup in Cura before making any change.
@@ -83,7 +87,10 @@ If you haven't Cura 4 installed yet, please proceed with it, and run it a first 
 Please refer to the [Cura wiki](https://github.com/Ultimaker/Cura/wiki/Cura-Preferences-and-Settings-Locations) to find the location for your *user settings* and *application cache* and clean them up. ***You should already have backup your settings using Cura backup feature before the modification !***
 
 ## Install CreawsomeMod
-First of all, download the [CreawsomeMod package](https://github.com/trouch/CreawsomeMod/releases/download/20190527-0.3.0/CreawsomeMod-Beta3.zip) then follow instructions according to your operating system. ***DO NOT DOWNLOAD THE ZIP FILE FROM THE CLONE BUTTON.***
+First of all, download the proper package for your Cura version then follow instructions according to your operating system. ***DO NOT DOWNLOAD THE ZIP FILE FROM THE CLONE BUTTON.***
+
+* [CreawsomeMod for Cura 4](https://github.com/trouch/CreawsomeMod/releases/download/20190527-0.3.0/CreawsomeMod-Beta3.zip) 
+* [CreawsomeMod for Cura 4.1](https://github.com/trouch/CreawsomeMod/releases/download/20190527-0.3.1/CreawsomeMod-Beta3-Cura4.1.zip)
 
 A youtuber in particular did a great intro video that shows how to install CreawsomeMod on Windows, use it, with a sample print at the end.
 
