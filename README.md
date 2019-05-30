@@ -90,7 +90,7 @@ Please refer to the [Cura wiki](https://github.com/Ultimaker/Cura/wiki/Cura-Pref
 First of all, download the proper package for your Cura version then follow instructions according to your operating system. ***DO NOT DOWNLOAD THE ZIP FILE FROM THE CLONE BUTTON.***
 
 * [CreawsomeMod for Cura 4](https://github.com/trouch/CreawsomeMod/releases/download/20190527-0.3.0/CreawsomeMod-Beta3.zip) 
-* [CreawsomeMod for Cura 4.1](https://github.com/trouch/CreawsomeMod/releases/download/20190530-0.3.2/CreawsomeMid-Beta3.2-Cura4.1.zip)
+* [CreawsomeMod for Cura 4.1](https://github.com/trouch/CreawsomeMod/releases/download/20190530-0.3.2/CreawsomeMod-Beta3.2-Cura4.1.zip)
 
 A youtuber in particular did a great intro video that shows how to install CreawsomeMod on Windows, use it, with a sample print at the end.
 

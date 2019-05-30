@@ -89,7 +89,7 @@ Veuillez consulter le [wiki Cura](https://github.com/Ultimaker/Cura/wiki/Cura-Pr
 Tout d'abord, téléchargez le paquet correspondant à votre version de Cura et suivez les instructions selon votre système d'exploitation. ***Ne téléchargez PAS le fichier ZIP depuis le boutton clone ci-dessus.***
 
 * [CreawsomeMod pour Cura 4.0](https://github.com/trouch/CreawsomeMod/releases/download/20190527-0.3.0/CreawsomeMod-Beta3.zip) 
-* [CreawsomeMod pour Cura 4.1](https://github.com/trouch/CreawsomeMod/releases/download/20190530-0.3.2/CreawsomeMid-Beta3.2-Cura4.1.zip)
+* [CreawsomeMod pour Cura 4.1](https://github.com/trouch/CreawsomeMod/releases/download/20190530-0.3.2/CreawsomeMod-Beta3.2-Cura4.1.zip)
 
 
 Un youtubeur en *particulier* a fait une très bonne vidéo d'intro qui montre l'installation sur Windows, son utilisation, et un exemple d'impression à la fin.
