@@ -1,81 +1,36 @@
 # CreawsomeMod for Cura 
-* [Overview](#Overview)
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Known Issues](#Known-Issues)
 * [Tuning Guide](#Tuning-Guide)
 
-***Cura Update to 4.1 will break itself if you have the mod installed. I highly recommend to reset your Cura settings and revert back to your old `resources`. Then you can proceed with Cura update and mod reinstall using the new package.***
+***Cura Update to 4.1 will break itself if you have the mod installed. See [known issues](#Known-Issues) for more info.***
 
 # Overview
-## Why this mod ?
-By default when adding a custom or a Creality machine, Cura enables several features to reduce printing duration, but it also decreases quality. This modification adds new machine definition with deep customization to improve printing quality compared to the original bundled definitions.
-
-I was also tired of customizing and manually overriding each setting depending on my needs and dealing with my custom profiles. I wanted something more streamlined that I can use accross computers and track the changes I do using my regular development workflow.
-
-Finally, I decided to share my work seeing the enthusiasm around my work and my prints so anyone can benefit from it.
 
 ## How this mod will improve my print quality ?
-It depends how have you been able to tune your profiles and printer so far ! As an example, you can see below the famous cube printed using the CR-10 S Pro _Super Quality_ profile. You should be able to decide by yourself if this mod worths to be tested. Keep in mind you will still need to adjust temperatures and retraction according to your material, and eventually the speed too.
-
-![sample cube](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/sample-cube.jpg)
+It depends how have you been able to tune your profiles and printer so far ! You can see few sample below. You should be able to decide by yourself if this mod worths to be tested. **Keep in mind you still need to adjust settings according to your material and model.**
 
 _xyzCalibration_cube.stl printed at 0.12mm layer height, 50mm/s_ [Source File](https://www.thingiverse.com/thing:1278865)
 
-![benchmark ender](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/bench-ender-round1-lowres.jpg)
+![sample cube](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/sample-cube.jpg)
 
 _money_cat_fill.stl printed at 0.20mm layer height, 60mm/s_ [Source File](https://www.thingiverse.com/thing:923108)
 
-
-
-## What are the actual modifications ?
-### Machine definition
-* Deeply defined machine
-* Fixed default feedrate, accel and jerk hidden settings
-* Disabled accel and jerk control
-* Adjusted print duration according to stock firmware
-* Adjusted speed to improve stability
-  * Main Speed @ 50mm/s
-  * Infill @ 100% Main Speed
-  * Walls @ 50% Main Speed
-  * Travel @ 150-200mm/s
-
-### Quality Improvements
-* Disabled Combing
-* Enabled Z-hop @ 0.2mm
-* Fixed layer heights
-* Fixed X/Y resolution 
-* Adjusted line width to 125% nozzle size \*
-* Aligned Z-seam in the back
-* Increased wall
-* Optimized supports
-* Per material temperature and cooling
-
-### UI Improvements
-* New _Essentials_ setting visility
-* Nozzle size selection
-* Added full machine preview
-* ... more to come !
-
-\* Long story short - not only it works, it also improves your quality and will make your life easier with model dimensions - a 0.4mm nozzle will draw a 0.5mm line !
-
-### Modification Preview
+![benchmark ender](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/bench-ender-round1-lowres.jpg)
 
 ![main screen](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/screen-main.png)
 
 ![details screen](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/screen-details.png)
 
-## What are the requirements ?
-* Cura 4.0-4.1
-
 
 # Installation
 
+## Requirements
+* Cura 4.0-4.1
+
 ## Warning
 ***This mod is currently in Beta and requires manual modification of your Cura installation. You may need to reinstall it in case the mod breaks something.***
-
-## Cura 4.1 Update ALERT
-***Cura Update to 4.1 will break itself if you have the mod installed. I highly recommend to reset your Cura settings and revert back to your old `resources`. Then you can proceed with Cura update and mod reinstall using the new package.***
 
 ## Backup user data
 Use integrated Utimaker cloud backup in Cura before making any change.
@@ -89,12 +44,8 @@ Please refer to the [Cura wiki](https://github.com/Ultimaker/Cura/wiki/Cura-Pref
 ## Install CreawsomeMod
 First of all, download the proper package for your Cura version then follow instructions according to your operating system. ***DO NOT DOWNLOAD THE ZIP FILE FROM THE CLONE BUTTON.***
 
-* [CreawsomeMod for Cura 4](https://github.com/trouch/CreawsomeMod/releases/download/20190527-0.3.0/CreawsomeMod-Beta3.zip) 
+* [CreawsomeMod for Cura 4.0](https://github.com/trouch/CreawsomeMod/releases/download/20190527-0.3.0/CreawsomeMod-Beta3.zip) 
 * [CreawsomeMod for Cura 4.1](https://github.com/trouch/CreawsomeMod/releases/download/20190530-0.3.2/CreawsomeMod-Beta3.2-Cura4.1.zip)
-
-A youtuber in particular did a great intro video that shows how to install CreawsomeMod on Windows, use it, with a sample print at the end.
-
-[![intro video](https://img.youtube.com/vi/mOn-VNqg2ac/0.jpg)](https://www.youtube.com/watch?v=mOn-VNqg2ac)
 
 ### Windows
 Extract the zip file somewhere on your computer. Go to your `Program Files\Ultimaker Cura` folder, locate the `resources` folder and rename it for backup purpose. Copy and past the `resources` folder from the zip file to modify your Cura installation. To revert, simply delete the new folder and rename back the old one.
@@ -106,23 +57,16 @@ Navigate through the folders to find the `resources` one and rename it for backu
 ![mac os folders](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/macos.png)
 
 ### Linux
-Not tested yet !
+Please refer to the [bug tracker](https://github.com/trouch/CreawsomeMod/issues/27) for more information.
 
 # Usage
 
-## Power-Cycle your printer
-If you just printed something with another profile, please power-cycle your printer once. _This is required to reset your firmware settings to defaults. Profiles with jerk/accel control enable add M204/M205 commands in the generated gcode which may gives unexpected result when using CreawsomeMod right after._
-
-## New Machine
+## Add a new Machine
 Once you have installed the package mod, you can start Cura and create a new machine using the new `CreawsomeMod` category so you can access the modified profiles. That's it !
 
 ![machines screen](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/screen-add-machine.png)
 
-Feel free to check the start g-code and adjust it to your need. By default it has following sequence :
-- G28 home axis
-- M420 to recall ABL mesh and setup Fade Height to 2mm
-- Draw a purge line following the front edge
-- Start Printing
+Feel free to check the start g-code and adjust it to your need.
 
 ## Material Settings
 It is really important that you use the material profiles capabilities to duplicate Generic ones and adjust temperatures as well as retractation settings there for each of your spool !
@@ -134,25 +78,14 @@ It is really important that you use the material profiles capabilities to duplic
 ## Known Issues
 First of all, please check the [Issues](https://github.com/trouch/CreawsomeMod/issues) tab for open and closed issue. There aren't that much for now, you should easily figure out your situation. Bellow is a recap of most experienced issues and answer/solutions.
 
+### Cura updates
+CreawsomeMod breaks Cura updates. I highly recommend to reset your Cura settings and revert back to your old `resources` at first. Then you can proceed with Cura update and mod reinstall using the proper package for you Cura version.
+
 ### macOS user privileges
 In case you can't modify your Cura install, please check your user privileges and Cura application access rights.
 
-### Where is my nozzle ?
-Please be patient. Each Nozzle/Material/Quality combination requires a specific mapping file with sub setting override when needed !
-
-### Incompatible profiles
+### Incompatible user profiles
 Since CreawsomeMod create new machine definitions with advanced features such as per-material preset and nozzle choice, any previous profile is not compatible with CreawsomeMod. Even it if was ever possible, it could bring unexpected behavior.
-
-### Cura updates
-CreawsomeMod only supports Cura 4. Additionnal releases per Cura version will be published over the time as needed.
-
-
-### Ridiculous name/typo
-Yeah, it is a typo with the first beta ! I admit and totally assume it as a non english native. True story : someone noticed it when it was time to change it, but I've been lazy in redoing the (ridiculous) splashscreen and actually found it fun somehow.
-
-## Tuning Guide
-
-First of all, no matter of the printer, slicer, mod or not, I highly recommend this [Guide](https://www.3dhubs.com/talk/t/howto-calibrate-tune-and-fine-tune-your-printer-and-filament/5695) to tune your printer. Most importants are extruder and flow calibration as well as properly tuning temperature for each of your spools !
 
 ### Z-Seam
 Probably the most challenging issue with FDM. Per default, CreasomeMod sets the Z-seam at the back of the model. This gives amazing overall looking and accuracy, but it may brings a non esthetic line on curved models. That's CreawsomeMod's Achilles' heel.
@@ -165,14 +98,18 @@ Probably the most challenging issue with FDM. Per default, CreasomeMod sets the 
 
 ![z-seam location tuning](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/tuning-zseam1.png)
 
-### Don't get bored with the bore heatbreak anymore
+### Clogging
 If you encounter any nozzle clogging during retract, you probably have a small leak between the PTFE and nozzle ! Creality users, try this [Original Creality hot end ptfe fix](https://www.thingiverse.com/thing:3203831) by Luke Hatfield, aka "OneBadMarine". This ensure to keep presure between the PTFE tube and nozzle to avoid any leak.
 
-### Line width
+### Missing print details
 CreawsomeMod sets the line width to 125% per default for convenience in calculation and overral better looking. However some models aren't compatible with such setting. In case you lose details, or have some wall replaced with thin infill, try to reduce the line width to 0.45mm or 0.40mm.
 
-### Retraction
+### Stringing
 For most of Creality printer, the extruder feedrate is limited to 25mm/s ! CreawsomeMod includes a start g-code to set it to 50mm/s using an _M203_ command and warns users when setting retraction above that value. Make sure to adjust start g-code if you need a retract speed above 50mm/s.
+
+## Tuning Guide
+No matter of the printer, slicer, mod or not, I highly recommend this [Guide](https://www.3dhubs.com/talk/t/howto-calibrate-tune-and-fine-tune-your-printer-and-filament/5695) to tune your printer. Most importants are extruder and flow calibration as well as properly tuning temperature for each of your spools !
+
 
 ## Support my work
 Considering it as a FREE upgrade to improve your print quality, you may want to support my work. I may have saved you hundred bucks in useless hardware upgrade ! Keep your money for filament spool and a dinner with your beloved people. Spread the word and mention CreawsomeMod when you are posting amazing prints using it.
