@@ -23,7 +23,7 @@
             ]
         },
 
-        "gantry_height": { "default_value": 25 },
+        "gantry_height": { "value": 25 },
 
         "speed_print": { "value": 80.0 }
 
