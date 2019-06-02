@@ -65,7 +65,7 @@ Consultez le [bug tracker](https://github.com/trouch/CreawsomeMod/issues/27) pou
 ## Ajoutez une nouvelle machine
 Une fois que vous avez installé la modification, vous pouvez démarrer Cura et créer une nouvelle machine en utilisant la nouvelle catégorie `CreawsomeMod` qui contient les nouveaux réglages. C'est tout !
 
-![machines screen](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/screen-add-machine.png)
+![machines screen](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/screen-add-machine-4.0.png)
 
 N'hésitez pas à vérifier le start g-code et modifiez le pour votre besoin.
 

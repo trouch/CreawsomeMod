@@ -64,7 +64,7 @@ Please refer to the [bug tracker](https://github.com/trouch/CreawsomeMod/issues/
 ## Add a new Machine
 Once you have installed the package mod, you can start Cura and create a new machine using the new `CreawsomeMod` category so you can access the modified profiles. That's it !
 
-![machines screen](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/screen-add-machine.png)
+![machines screen](https://github.com/trouch/CreawsomeMod/raw/master/doc/img/screen-add-machine-4.0.png)
 
 Feel free to check the start g-code and adjust it to your need.
 
