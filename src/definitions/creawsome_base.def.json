@@ -82,13 +82,18 @@
             "maximum_value_warning": "machine_max_feedrate_e if retraction_enable else float('inf')",
             "maximum_value": 200
         },
-        "retraction_combing": { "value": "'off'"},
+        
+        "retraction_hop_enabled": { "value": false },
+        "retraction_hop": { "value": 0.2 },
+        "retraction_combing": { "value": "'off' if retraction_hop_enabled else 'infill'"},
+        "retraction_combing_max_distance": { "value": 30},
+        "travel_avoid_other_parts": { "value": true },
+        "travel_avoid_supports": { "value": false },
+        
         "retraction_enable": { "value": true },
         "retraction_count_max": { "value": 100 },
         "retraction_extrusion_window": { "value": 10 },
         "retraction_min_travel": { "value": 1.5 },
-        "retraction_hop_enabled": { "value": true },
-        "retraction_hop": { "value": 0.2 },
 
         "cool_fan_full_at_height": { "value": "layer_height_0 + 2 * layer_height" },
         "cool_fan_enabled": { "value": true },
