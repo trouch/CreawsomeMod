@@ -30,7 +30,7 @@ processMachineProfiles() {
     echo "Creating directory $dir"
     mkdir -p $dir
     for Q in $1
-        do processMachineQuality $Q $M $dir
+        do processMachineQuality $Q $2 $dir
     done
 }
 
@@ -49,9 +49,10 @@ processMachineVariants() {
 }
 
 processMachines() {
+    processMachineProfiles "$1" creawsome/base
     for M in $3
-        do  processMachineProfiles "$1" $M; \
-        processMachineVariants "$2" $M
+        #do  processMachineProfiles "$1" $M; \
+        do processMachineVariants "$2" $M
             
     done
 }
