@@ -90,7 +90,7 @@
         "retraction_combing": { "value": "'off' if retraction_hop_enabled else 'infill'"},
         "retraction_combing_max_distance": { "value": 30},
         "travel_avoid_other_parts": { "value": true },
-        "travel_avoid_supports": { "value": false },
+        "travel_avoid_supports": { "value": true },
         
         "retraction_enable": { "value": true },
         "retraction_count_max": { "value": 100 },
