@@ -71,6 +71,11 @@
         "infill_overlap": { "value": 30.0 },
         "skin_overlap": { "value": 10.0 },
         "infill_wipe_dist": { "value": 0.0 },
+        "wall_0_wipe_dist": { "value": 0.0 },
+
+        "fill_perimeter_gaps": { "value": "'everywhere'" },
+        "fill_outline_gaps": { "value": false },
+        "filter_out_tiny_gaps": { "value": false },
 
         "retraction_speed": {
             "maximum_value_warning": "machine_max_feedrate_e if retraction_enable else float('inf')",
@@ -91,6 +96,7 @@
         "retraction_combing_max_distance": { "value": 30},
         "travel_avoid_other_parts": { "value": true },
         "travel_avoid_supports": { "value": true },
+        "travel_retract_before_outer_wall": { "value": true },
         
         "retraction_enable": { "value": true },
         "retraction_count_max": { "value": 100 },
