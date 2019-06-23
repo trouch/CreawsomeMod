@@ -90,7 +90,7 @@
             "maximum_value": 200
         },
         
-        "retraction_hop_enabled": { "value": false },
+        "retraction_hop_enabled": { "value": "support_enable" },
         "retraction_hop": { "value": 0.2 },
         "retraction_combing": { "value": "'off' if retraction_hop_enabled else 'infill'"},
         "retraction_combing_max_distance": { "value": 30},
