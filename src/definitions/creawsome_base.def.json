@@ -63,6 +63,8 @@
         "material_flow": { "value": 100},
 
         "z_seam_type": { "value": "'back'"},
+        "z_seam_x": { "value": 0},
+        "z_seam_y": { "value": "machine_depth"},
         "z_seam_corner": { "value": "'z_seam_corner_none'"},
         
         "infill_sparse_density": { "value": "20"},
