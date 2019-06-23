@@ -65,8 +65,8 @@
         "z_seam_type": { "value": "'back'"},
         "z_seam_corner": { "value": "'z_seam_corner_none'"},
         
-        "infill_sparse_density": { "value": "10"},
-        "infill_pattern": { "value": "'lines' if infill_sparse_density > 50 else 'grid'"},
+        "infill_sparse_density": { "value": "20"},
+        "infill_pattern": { "value": "'lines' if infill_sparse_density > 50 else 'cubic'"},
         "infill_before_walls": { "value": false },
         "infill_overlap": { "value": 30.0 },
         "skin_overlap": { "value": 10.0 },
