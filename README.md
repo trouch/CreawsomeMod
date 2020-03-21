@@ -1,5 +1,9 @@
-# CreawsomeMod for Cura 
-***Now integrated in Cura official releases since Version 4.2, you will benefit from CreawsomeMod machine settings as long you have a Creality Printer. Your settings should be kept and upgraded when updating Cura. This repo is kept as an history reference, issue tracker, and documentation.***
+# CreawsomeMod for Cura
+
+***This project reached End-of-Life and is now deprecated.***
+
+***CreawsomeMod settings has been integrated to Cura since version 4.2.***
+
 
 * [Usage](#Usage)
 * [Known Issues](#Known-Issues)
